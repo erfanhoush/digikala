@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#424750aa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <!-- شمش بالا -->
+  <path d="M20,8 
+           a2,2 0 0 1 2,-2 
+           h20 
+           a2,2 0 0 1 2,2 
+           v6 
+           h-24 
+           z" />
+           
+  <!-- شمش پایین چپ -->
+  <path d="M8,24 
+           a2,2 0 0 1 2,-2 
+           h16 
+           a2,2 0 0 1 2,2 
+           v6 
+           h-20 
+           z" />
+           
+  <!-- شمش پایین راست -->
+  <path d="M36,24 
+           a2,2 0 0 1 2,-2 
+           h16 
+           a2,2 0 0 1 2,2 
+           v6 
+           h-20 
+           z" />
+</svg>

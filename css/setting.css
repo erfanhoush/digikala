@@ -1,0 +1,15 @@
+@font-face {
+  font-family: yekan;
+  src: url(../fonts/yekan/BYekan.eot), url(../fonts/BYekan.ttf),
+    url(../fonts/yekan/BYekan.woff), url(../fonts/yekan/BYekan.woff2);
+}
+*{
+    margin:0 ;
+    padding:0 ;
+    font-family: yekan;
+}
+body{
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+main{width: 100%;}
