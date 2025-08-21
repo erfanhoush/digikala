@@ -2,4 +2,7 @@
     width: inherit;
     height: 140px;
     display: flex;
+    h5{
+        margin-right: 3.5px;
+    }
 }
