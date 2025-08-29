@@ -8,6 +8,7 @@
   right: 25px;
   /* display: none; */
   z-index: 1;
+  top: 162px;
 }
 .sorting_select {
   direction: ltr;
