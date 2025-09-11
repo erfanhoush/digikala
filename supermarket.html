@@ -6,16 +6,18 @@
     <title>فروشگاه اینترنتی دیجی کالا</title>
     <link rel="shortcut icon" href="./imgs/favicon.ico" type="imagex/x-icon" />
     <link rel="stylesheet" href="./css/import.css" />
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css">
   </head>
   <body>
     <!-- #region header-->
     <header class="super_header">
       <!-- #region super_header_add-->
-       <div class="super_header_add">
+      <div class="super_header_add">
         <a href="#">
-          <img src="./imgs/super_add.jpg" alt="super_add">
+          <img src="./imgs/super_add.jpg" alt="super_add" />
         </a>
-       </div>
+      </div>
       <!-- #region super_header_top-->
       <div class="super_header_top">
         <!-- #region super_logo-->
@@ -92,18 +94,20 @@
           <span class="between_sorting_amazing"></span>
           <!-- #region amazing-->
           <div class="top_menu">
-            <a href="">
+            <a href="#">
               <img src="./svgs/y.svg" alt="amazing" />
               <h5>شگفت انگیز ها</h5>
+            <div class="border green"></div>
             </a>
           </div>
           <!-- #endregion amazing-->
           <span class="between_sorting_amazing"></span>
           <!-- #region question-->
-          <div class="top_menu_question">
+          <div class="super_question">
             <a href="#">
               <h5>سوالی دارید؟</h5>
             </a>
+            <div class="border green"></div>
           </div>
           <!-- #endregion question-->
         </div>
@@ -112,7 +116,7 @@
         <div class="super_city">
           <a href="#">
             <h5>لطفا شهر خود را انتخاب کنید</h5>
-            <img src="./svgs/supermarket/city.svg" alt="super.svg">
+            <img src="./svgs/supermarket/city.svg" alt="super.svg" />
           </a>
         </div>
         <!-- #endregion super_city-->
@@ -121,5 +125,32 @@
       <!-- #endregion super_header_bottom-->
     </header>
     <!-- #endregion header-->
+    <!-- #region main-->
+    <main>
+      <!-- #region swiper_ad-->
+      <div class="swiper slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./imgs/super_swiper_ad/1.jpg" alt="irainain_food"></div>
+          <div class="swiper-slide"><img src="./imgs/super_swiper_ad/2.jpg" alt="washing"></div>
+          <div class="swiper-slide"><img src="./imgs/super_swiper_ad/3.jpg" alt="food"></div>
+          <div class="swiper-slide"><img src="./imgs/super_swiper_ad/4.jpg" alt="print"></div>
+          <div class="swiper-slide"><img src="./imgs/super_swiper_ad/5.jpg" alt="saffron"></div>
+        </div>
+        <div class="custom-pagination"></div>
+        <button class="prev-nav">
+          <img src="./svgs/right_navigation.svg" alt="right_navigation">
+        </button>
+        <button class="next-nav">
+          <img src="./svgs/left_navigation.svg" alt="left_navigation">
+        </button>
+      </div>
+      <!-- #endregion swiper_ad-->
+    </main>
+    <!-- #endregion main-->
+    <!-- #region scripts-->
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="./scripts/sliderSwiper.js"></script>
+    <script src="./scripts/app.js"></script>
+    <!-- #endregion scripts-->
   </body>
 </html>

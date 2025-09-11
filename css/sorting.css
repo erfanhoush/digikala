@@ -6,9 +6,9 @@
   height: 60vh;
   position: absolute;
   right: 25px;
-  /* display: none; */
-  z-index: 1;
-  top: 162px;
+  display: none;
+  z-index: 12;
+  top: 42px;
 }
 .sorting_select {
   direction: ltr;
@@ -153,3 +153,12 @@
   }
 }
 .space2{width: 80px;}
+.dark{
+  background-color: #0c0c0c;
+  width: calc(1265px*2);
+  height: 850px;
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  display: none;
+}

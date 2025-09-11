@@ -125,3 +125,22 @@
     }
   }
 }
+.green{background-color: #029A49 !important;}
+.super_question{
+  width: 70px !important;
+  margin-left: 24px;
+  position: relative;
+  height: inherit;
+  a{
+    width: inherit;
+    text-decoration: none;
+    color: #424750aa;
+    display: flex;
+    align-items: center;
+    height: inherit;
+  }
+  &:hover .border{
+    width: inherit;
+  }
+}
+}
