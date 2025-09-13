@@ -6,3 +6,12 @@ const swiper = new Swiper(".story", {
     prevEl: ".prev"
   },
 });
+ var swiper = new Swiper(".amazing_swiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      centeredSlides: true,
+      pagination: {
+        el: ".swiper-amazing-pagination",
+        clickable: true,
+      },
+    });

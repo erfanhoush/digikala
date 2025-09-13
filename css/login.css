@@ -42,77 +42,74 @@ body {
   }
 }
 
-.login{
+.login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+  h3 {
+    color: #0c0c0c;
     display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 40px;
-    h3 {
-      color: #0c0c0c;
-      display: flex;
-    }
-    span {
-      display: block;
-      width: 2px;
-      height: 15px;
-      background-color: #424750;
-    }
+  }
+  span {
+    display: block;
+    width: 2px;
+    height: 15px;
+    background-color: #424750;
+  }
 }
-.discription{
-    margin-top: 40px;
-    h5{
-        color: #3F406488;
-        font-weight: lighter;
-    }
+.discription {
+  margin-top: 40px;
+  h5 {
+    color: #3f406488;
+    font-weight: lighter;
+  }
 }
-.form{
-    margin-top: 25px;
-    width: 320px;
-    height: 47px;
-    border: 2px solid #008EB2;
+.form {
+  margin-top: 25px;
+  width: 320px;
+  height: 47px;
+  border: 1.5px solid #008eb277;
+  border-radius: 10px;
+  padding: 8px;
+  form {
+    width: inherit;
+    height: inherit;
+    border: none;
+    margin-right: 7px;
+    input {
+      border: hidden;
+      width: 90%;
+      height: 60%;
+      outline: none;
+      caret-color: #008eb277;
+    }
+  }
+}
+.enter {
+  width: 320px;
+  height: 47px;
+  margin-top: 25px;
+  a {
+    width: inherit;
+    height: inherit;
+    background-color: #ef4056;
+    display: block;
     border-radius: 10px;
-    padding: 8px;
-    form{
-        width: inherit;
-        height: inherit;
-        border: none;
-        margin-right: 7px;
-        input{
-            border: hidden;
-            width: 90%;
-            height: 60%;
-            outline: none;
-        }
-    }
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    align-content: center;
+  }
 }
-.enter{
-    width: 320px;
-    height: 47px;
-    margin-top: 25px;
-    a{
-        width: inherit;
-        height: inherit;
-        background-color: #EF4056;
-        display: block;
-        border-radius: 10px;
-        text-decoration: none;
-        text-align: center;
-        color: #FFFFFF;
-        align-content: center;
-    }   
-}
-.end{
-  
-  height: max-content;
-  width: max-content;
-    display: flex;
-    h5{
-      display: flex;
-      color: #3F406488;
-    }
-    a{
-      text-decoration: none;
-      font-size: smaller;
-      color: #008EB2;
-    }
+.terms {
+  margin-top: 25px;
+  color: #3f406488;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  a {
+    font-size: 12px !important;
+    text-decoration: none;
+    color: #008eb2bb;
+  }
 }

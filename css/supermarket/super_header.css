@@ -122,10 +122,13 @@
     height: inherit;
     img{
       height: inherit;
+      width: inherit;
     }
   }
 }
-.green{background-color: #029A49 !important;}
+.green{
+  background-color: #029A49 !important;
+}
 .super_question{
   width: 70px !important;
   margin-left: 24px;
@@ -143,4 +146,9 @@
     width: inherit;
   }
 }
+.green_text {
+  &:hover {
+    background-color: #FFFFFF;
+      color: #029A49 !important;
+  }
 }

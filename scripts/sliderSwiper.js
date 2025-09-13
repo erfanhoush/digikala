@@ -3,6 +3,7 @@ const sliderSwiper = new Swiper(".slider", {
   spaceBetween: 10,
   centeredSlides: true,
   loop: true,
+  autoplay: true,
   pagination: {
     el: ".custom-pagination",
     clickable: true,

@@ -133,6 +133,7 @@ header {
   width: 80%;
   display: flex;
   align-items: center;
+  padding-right: 17px;
   & :hover .sorting_menu{display: block;}
 }
 .sorting {
@@ -147,6 +148,7 @@ header {
     color: #424750ff;
   }
   &:hover .border{width: inherit;}
+  &:hover .dark{display: block;}
 }
 .between_sorting_amazing {
   display: block;
@@ -219,7 +221,6 @@ header {
   width: 100%;
   justify-content: center;
   display: flex;
-  right: px;
 }
 .city_info {
   width: 320px;
@@ -230,7 +231,7 @@ header {
   border-radius: 5px;
   top: 8px;
   display: none;
-  z-index: 1;
+  z-index: 12;
   pre {
     color: #ededf0;
     font-size: small;

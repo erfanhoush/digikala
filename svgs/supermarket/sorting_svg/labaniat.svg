@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- بطری شیر -->
+  <rect x="8" y="12" width="10" height="22" rx="2" ry="2"/>
+  <rect x="9" y="8" width="8" height="4"/>
+  
+  <!-- پنیر ساده (بدون سوراخ) کنار بطری -->
+  <path d="M20 28 l12 -6 v12 h-12 z" />
+</svg>
