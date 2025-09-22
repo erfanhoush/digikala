@@ -1,304 +1,427 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>فروشگاه اینترنتی دیجی کالا</title>
-    <link rel="shortcut icon" href="./imgs/favicon.ico" type="imagex/x-icon" />
-    <link rel="stylesheet" href="./css/import.css" />
-    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./css/all.min.css">
-  </head>
-  <body>
-    <!-- #region header-->
-    <header class="super_header">
-      <!-- #region super_header_add-->
-      <div class="super_header_add">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>فروشگاه اینترنتی دیجی کالا</title>
+  <link rel="shortcut icon" href="./imgs/favicon.ico" type="imagex/x-icon" />
+  <link rel="stylesheet" href="./css/import.css" />
+  <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/all.min.css">
+</head>
+
+<body>
+  <!-- #region header-->
+  <header class="super_header">
+    <!-- #region super_header_add-->
+    <div class="super_header_add">
+      <a href="#">
+        <img src="./imgs/super_add.jpg" alt="super_add" />
+      </a>
+    </div>
+    <!-- #region super_header_top-->
+    <div class="super_header_top">
+      <!-- #region super_logo-->
+      <div class="super_logo">
         <a href="#">
-          <img src="./imgs/super_add.jpg" alt="super_add" />
+          <img src="./imgs/fresh-header-logo.jpg" alt="supermarket_logo" class="img" />
+          <img src="./svgs/supermarket/super_logo.svg" alt="supermarket_svg" class="svg" />
         </a>
       </div>
-      <!-- #region super_header_top-->
-      <div class="super_header_top">
-        <!-- #region super_logo-->
-        <div class="super_logo">
-          <a href="#">
-            <img
-              src="./imgs/fresh-header-logo.jpg"
-              alt="supermarket_logo"
-              class="img"
-            />
-            <img
-              src="./svgs/supermarket/super_logo.svg"
-              alt="supermarket_svg"
-              class="svg"
-            />
-          </a>
+      <!-- #endregion super_logo-->
+      <!-- #region search_box-->
+      <div class="super_search_box">
+        <!-- #region search_icon-->
+        <div class="search_icon">
+          <img src="./svgs/search_icon.svg" alt="search_icon" />
         </div>
-        <!-- #endregion super_logo-->
-        <!-- #region search_box-->
-        <div class="super_search_box">
-          <!-- #region search_icon-->
-          <div class="search_icon">
-            <img src="./svgs/search_icon.svg" alt="search_icon" />
-          </div>
-          <!-- #endregion search_icon-->
-          <!-- #region search_input-->
-          <form action="">
-            <input dir="rtl" type="search" placeholder="جستجو" />
-          </form>
-          <!-- #endregion search_input-->
-        </div>
-        <!-- #endregion search_box-->
-        <!-- #region login-->
-        <div class="login">
-          <!-- #region sign_up-->
-          <div class="sign_up">
-            <a href="./login.html">
-              <img src="./svgs/login_logo.svg" alt="login_logo" />
-              ورود
-              <span></span>
-              ثبت نام
-            </a>
-          </div>
-          <!-- #endregion sign_up-->
-          <span class="between_cart_sign"></span>
-        </div>
-        <!-- #endregion login-->
-        <!-- #region basket-->
-        <div class="basket">
-          <a href="#">
-            <img src="./svgs/supermarket/super.svg" alt="" />
-          </a>
-        </div>
-        <!-- #endregion basket-->
-        <!-- #region back-->
-        <div class="back">
-          <a href="./index.html">
-            <h4>رفتن به دیجی کالا</h4>
-            <img src="./svgs/supermarket/felesh.svg" alt="back_felesh" />
-          </a>
-        </div>
-        <!-- #endregion back-->
+        <!-- #endregion search_icon-->
+        <!-- #region search_input-->
+        <form action="">
+          <input dir="rtl" type="search" placeholder="جستجو" />
+        </form>
+        <!-- #endregion search_input-->
       </div>
-      <!-- #endregion super_header_top-->
-      <div class="super_header_bottom">
-        <!-- #region super_menu-->
-        <div class="menu_items">
-          <!-- #region sorting-->
-          <div class="sorting">
-            <img src="./svgs/sorting_logo.svg" alt="sorting" />
-            <h3>دسته بندی کالاها</h3>
-            <div class="border green"></div>
-            <div class="dark"></div>
-            <!-- #region menu_items-->
-            <div class="sorting_menu">
-              <div class="sorting_select">
-                <!-- #region asasi-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="./svgs/supermarket/sorting_svg/kala_asasi.svg" alt="main_products">
-                    کالای اساسی و خاروبار
-                  </a>
-                </div>
-                <!-- #endregion asasi-->
-                 <!-- #region labaniat-->
-                <div class="sorting_menu_items ">
-                  <a href="#" class="select_a green_text">
-                    <img src="./svgs/supermarket/sorting_svg/labaniat.svg" alt="labaniat">
-                    لبنیات
-                  </a>
-                </div>
-                <!-- #endregion labaniat-->
-                 <!-- #region junks-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="./svgs/supermarket/sorting_svg/tanagholat.svg" alt="junks">
-                    تنقلات
-                  </a>
-                </div>
-                <!-- #endregion junks-->
-                 <!-- #region protein-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="./svgs/supermarket/sorting_svg/" alt="protein">
-                    مواد پروتئینی و تخم مرغ
-                  </a>
-                </div>
-                <!-- #endregion protein-->
-                 <!-- #region breakfast-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="" alt="breakfast">
-                    صبحانه
-                  </a>
-                </div>
-                 <!-- #endregion breakfast-->
-                  <!-- #region cold_drink-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="./svgs/supermarket/sorting_svg/cold_drink.svg" alt="cold_drink">
-                    نوشیدنی های سرد
-                  </a>
-                </div>
-                  <!-- #endregion cold_drink-->
-                   <!-- #region warm_drinks-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="./svgs/supermarket/sorting_svg/warm_drinks.svg" alt="warm_drinks">
-                    نوشیدنی های گرم
-                  </a>
-                </div>
-                <!-- #endregion warm_drinks-->
-                 <!-- #region fruits-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="./svgs/supermarket/sorting_svg/fruits.svg" alt="fruits">
-                    میوه و سبزیجات
-                  </a>
-                </div>
-                 <!-- #endregion fruits-->
-                  <!-- #region health-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="" alt="healh">
-                    بهداشت شخصی
-                  </a>
-                </div>
-                  <!-- #endregion health-->
-                   <!-- #region mother-->
-                   <div class="sorting_menu_items">
-                     <a href="#" class="select_a green_text">
-                       <img src="./svgs/supermarket/sorting_svg/mother.svg" alt="mother&kid">
-                       مادر و کودک
-                     </a>
-                   </div>
-                   <!-- #endregion mother-->
-                    <!-- #region house_cleanin-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="" alt="house_cleanin">
-                    بهداشت خانگی
-                  </a>
-                    <!-- #endregion house_cleanin-->
-                     <!-- #region sweety-->
-                </div>
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="./svgs/supermarket/sorting_svg/sweety.svg" alt="sweety">
-                    خشکبار و شیرینی
-                  </a>
-                </div>
-                     <!-- #endregion sweety-->
-                      <!-- #region conserv-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="./svgs/supermarket/sorting_svg/conserv.svg" alt="conserv">
-                    کنسرو و غذای آماده
-                  </a>
-                </div>
-                <!-- #endregion conserv-->
-                 <!-- #region advieh-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="" alt="advieh">
-                    ادویه و افزودنی ها
-                  </a>
-                </div>
-                 <!-- #endregion advieh-->
-                  <!-- #region freeze-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="./svgs/supermarket/sorting_svg/freeze.svg" alt="freeze">
-                    فرآورده های منجمد و یخچالی
-                  </a>
-                </div>
-                  <!-- #endregion freeze-->
-                   <!-- #region torshi-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="" alt="torshi">
-                    شور و ترشیجات
-                  </a>
-                </div>
-                   <!-- #endregion torshi-->
-                    <!-- #region pet_shop-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="" alt="pet_shop">
-                  </a>
-                </div>
-                    <!-- #endregion pet_shop-->
+      <!-- #endregion search_box-->
+      <!-- #region login-->
+      <div class="login">
+        <!-- #region sign_up-->
+        <div class="sign_up">
+          <a href="./login.html">
+            <img src="./svgs/login_logo.svg" alt="login_logo" />
+            ورود
+            <span></span>
+            ثبت نام
+          </a>
+        </div>
+        <!-- #endregion sign_up-->
+        <span class="between_cart_sign"></span>
+      </div>
+      <!-- #endregion login-->
+      <!-- #region basket-->
+      <div class="basket">
+        <a href="#">
+          <img src="./svgs/supermarket/super.svg" alt="" />
+        </a>
+      </div>
+      <!-- #endregion basket-->
+      <!-- #region back-->
+      <div class="back">
+        <a href="./index.html">
+          <h4>رفتن به دیجی کالا</h4>
+          <img src="./svgs/supermarket/felesh.svg" alt="back_felesh" />
+        </a>
+      </div>
+      <!-- #endregion back-->
+    </div>
+    <!-- #endregion super_header_top-->
+    <div class="super_header_bottom">
+      <!-- #region super_menu-->
+      <div class="menu_items">
+        <!-- #region sorting-->
+        <div class="sorting">
+          <img src="./svgs/sorting_logo.svg" alt="sorting" />
+          <h3>دسته بندی کالاها</h3>
+          <div class="border green"></div>
+          <div class="dark"></div>
+          <!-- #region menu_items-->
+          <div class="sorting_menu">
+            <div class="sorting_select">
+              <!-- #region asasi-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/kala_asasi.svg" alt="main_products">
+                  کالای اساسی و خاروبار
+                </a>
               </div>
+              <!-- #endregion asasi-->
+              <!-- #region labaniat-->
+              <div class="sorting_menu_items ">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/labaniat.svg" alt="labaniat">
+                  لبنیات
+                </a>
+              </div>
+              <!-- #endregion labaniat-->
+              <!-- #region junks-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/tanagholat.svg" alt="junks">
+                  تنقلات
+                </a>
+              </div>
+              <!-- #endregion junks-->
+              <!-- #region protein-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/steak.svg" alt="protein">
+                  مواد پروتئینی و تخم مرغ
+                </a>
+                <!-- #region sorting_protein-->
+                <div class="sorting_items" style="display: flex;">
+                  <div class="mobile_items">
+                    <!-- #region protein_top-->
+                    <a href="#" class="sorting_top">
+                      همه محصولات مواد پروتئینی و تخم مرغ
+                      <img src="./svgs/peikan.svg" alt="peykan">
+                    </a>
+                    <!-- #endregion protein_top-->
+                     <!-- #region protein_menu-->
+                      <div class="mobile_menu">
+                        <!-- #region protein_menu_line4-->
+                        <div class="mobile_menu_items"></div>
+                        <!-- #endregion protein_menu_line4-->
+                        <!-- #region protein_menu_line3-->
+                        <div class="mobile_menu_items"></div>
+                        <!-- #endregion protein_menu_line3-->
+                        <!-- #region protein_menu_line2-->
+                        <div class="mobile_menu_items"></div>
+                        <!-- #endregion protein_menu_line2-->
+                        <!-- #region protein_menu_line1-->
+                        <div class="mobile_menu_items"></div>
+                        <!-- #endregion protein_menu_line1-->
+                      </div>
+                     <!-- #endregion protein_menu-->
+                  </div>
+                </div>
+                <!-- #endregion sorting_protein-->
+              </div>
+              <!-- #endregion protein-->
+              <!-- #region breakfast-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/breakfast.svg" alt="breakfast">
+                  صبحانه
+                </a>
+              </div>
+              <!-- #endregion breakfast-->
+              <!-- #region cold_drink-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/cold_drink.svg" alt="cold_drink">
+                  نوشیدنی های سرد
+                </a>
+              </div>
+              <!-- #endregion cold_drink-->
+              <!-- #region warm_drinks-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/warm_drinks.svg" alt="warm_drinks">
+                  نوشیدنی های گرم
+                </a>
+              </div>
+              <!-- #endregion warm_drinks-->
+              <!-- #region fruits-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/fruits.svg" alt="fruits">
+                  میوه و سبزیجات
+                </a>
+              </div>
+              <!-- #endregion fruits-->
+              <!-- #region health-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/health.svg" alt="healh">
+                  بهداشت شخصی
+                </a>
+              </div>
+              <!-- #endregion health-->
+              <!-- #region mother-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/mother.svg" alt="mother&kid">
+                  مادر و کودک
+                </a>
+              </div>
+              <!-- #endregion mother-->
+              <!-- #region house_cleanin-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="" alt="house_cleanin">
+                  بهداشت خانگی
+                </a>
+                <!-- #endregion house_cleanin-->
+                <!-- #region sweety-->
+              </div>
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/sweety.svg" alt="sweety">
+                  خشکبار و شیرینی
+                </a>
+              </div>
+              <!-- #endregion sweety-->
+              <!-- #region conserv-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/conserv.svg" alt="conserv">
+                  کنسرو و غذای آماده
+                </a>
+              </div>
+              <!-- #endregion conserv-->
+              <!-- #region spices-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/spice.svg" alt="spices">
+                  ادویه و افزودنی ها
+                </a>
+              </div>
+              <!-- #endregion spices-->
+              <!-- #region freeze-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/freeze.svg" alt="freeze">
+                  فرآورده های منجمد و یخچالی
+                </a>
+              </div>
+              <!-- #endregion freeze-->
+              <!-- #region torshi-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="./svgs/supermarket/sorting_svg/torshi.svg" alt="torshi">
+                  شور و ترشیجات
+                </a>
+              </div>
+              <!-- #endregion torshi-->
+              <!-- #region pet_shop-->
+              <div class="sorting_menu_items">
+                <a href="#" class="select_a green_text">
+                  <img src="" alt="pet_shop">
+                  پت شاپ
+                </a>
+              </div>
+              <!-- #endregion pet_shop-->
             </div>
-            <!-- #endregion menu_items-->
           </div>
-          <!-- #endregion sorting-->
-          <span class="between_sorting_amazing"></span>
-          <!-- #region amazing-->
-          <div class="top_menu">
-            <a href="#">
-              <img src="./svgs/y.svg" alt="amazing" />
-              <h5>شگفت انگیز ها</h5>
-            <div class="border green"></div>
-            </a>
-          </div>
-          <!-- #endregion amazing-->
-          <span class="between_sorting_amazing"></span>
-          <!-- #region question-->
-          <div class="super_question">
-            <a href="#">
-              <h5>سوالی دارید؟</h5>
-            </a>
-            <div class="border green"></div>
-          </div>
-          <!-- #endregion question-->
+          <!-- #endregion menu_items-->
         </div>
-        <!-- #endregion super_menu-->
-        <!-- #region super_city-->
-        <div class="super_city">
+        <!-- #endregion sorting-->
+        <span class="between_sorting_amazing"></span>
+        <!-- #region amazing-->
+        <div class="top_menu">
           <a href="#">
-            <h5>لطفا شهر خود را انتخاب کنید</h5>
-            <img src="./svgs/supermarket/city.svg" alt="super.svg" />
+            <img src="./svgs/y.svg" alt="amazing" />
+            <h5>شگفت انگیز ها</h5>
+            <div class="border green"></div>
           </a>
         </div>
-        <!-- #endregion super_city-->
-      </div>
-    </header>
-    <!-- #endregion header-->
-    <!-- #region main-->
-    <main>
-      <!-- #region swiper_ad-->
-      <div class="swiper slider">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="./imgs/super_swiper_ad/1.jpg" alt="irainain_food"></div>
-          <div class="swiper-slide"><img src="./imgs/super_swiper_ad/2.jpg" alt="washing"></div>
-          <div class="swiper-slide"><img src="./imgs/super_swiper_ad/3.jpg" alt="food"></div>
-          <div class="swiper-slide"><img src="./imgs/super_swiper_ad/4.jpg" alt="print"></div>
-          <div class="swiper-slide"><img src="./imgs/super_swiper_ad/5.jpg" alt="saffron"></div>
+        <!-- #endregion amazing-->
+        <span class="between_sorting_amazing"></span>
+        <!-- #region question-->
+        <div class="super_question">
+          <a href="#">
+            <h5>سوالی دارید؟</h5>
+          </a>
+          <div class="border green"></div>
         </div>
-        <div class="custom-pagination"></div>
-        <button class="prev-nav">
-          <img src="./svgs/right_navigation.svg" alt="right_navigation">
-        </button>
-        <button class="next-nav">
-          <img src="./svgs/left_navigation.svg" alt="left_navigation">
-        </button>
+        <!-- #endregion question-->
       </div>
-      <!-- #endregion swiper_ad-->
-       <!-- #region support_fix-->
-       <div class="support_fix super_support">
+      <!-- #endregion super_menu-->
+      <!-- #region super_city-->
+      <div class="super_city">
         <a href="#">
-          <img src="./svgs/support.svg" alt="support_svg">
+          <h5>لطفا شهر خود را انتخاب کنید</h5>
+          <img src="./svgs/supermarket/city.svg" alt="super.svg" />
         </a>
-       </div>
-       <!-- #endregion support_fix-->
-    </main>
-    <!-- #endregion main-->
-    <!-- #region scripts-->
-    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
-    <script src="./scripts/sliderSwiper.js"></script>
-    <script src="./scripts/app.js"></script>
-    <!-- #endregion scripts-->
-  </body>
+      </div>
+      <!-- #endregion super_city-->
+    </div>
+  </header>
+  <!-- #endregion header-->
+  <!-- #region main-->
+  <main>
+    <!-- #region swiper_ad-->
+    <div class="swiper slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./imgs/super_swiper_ad/1.jpg" alt="irainain_food"></div>
+        <div class="swiper-slide"><img src="./imgs/super_swiper_ad/2.jpg" alt="washing"></div>
+        <div class="swiper-slide"><img src="./imgs/super_swiper_ad/3.jpg" alt="food"></div>
+        <div class="swiper-slide"><img src="./imgs/super_swiper_ad/4.jpg" alt="print"></div>
+        <div class="swiper-slide"><img src="./imgs/super_swiper_ad/5.jpg" alt="saffron"></div>
+      </div>
+      <div class="custom-pagination"></div>
+      <button class="prev-nav">
+        <img src="./svgs/right_navigation.svg" alt="right_navigation">
+      </button>
+      <button class="next-nav">
+        <img src="./svgs/left_navigation.svg" alt="left_navigation">
+      </button>
+    </div>
+    <!-- #endregion swiper_ad-->
+    <!-- #region support_fix-->
+    <div class="support_fix super_support">
+      <a href="#">
+        <img src="./svgs/support.svg" alt="support_svg">
+      </a>
+    </div>
+    <!-- #endregion support_fix-->
+    <!-- #region amazing_offers-->
+    <div class="swiper amazing_swiper green" id="super-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide_one offer_first">
+          <img src="./svgs/supermarket/amazing/amazing.svg" alt="amazing_svg">
+          <img src="./imgs/super_logo.png" alt="super_logo">
+          <a href="#" class="super_amazing_more">مشاهده همه
+            <img src="./svgs/white_peykan.svg" alt="white_peykan">
+          </a>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="amazing_offer_logo">
+            <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer">
+          </div>
+          <div class="super_offer_img">
+            <img src="./imgs/super_amazing/1.jpg" alt="cheeze">
+          </div>
+          <div class="super_amazing_plus">
+            <img src="./svgs/supermarket/amazing/plus.svg" alt="plus">
+          </div>
+          <div class="amazing_text">
+            <p>
+              پنیر لبنه آنا کاله - 350 گرم
+            </p>
+          </div>
+          <div class="amazing_price super_price">
+            <div class="toman super_toman">
+              <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+              93,000
+            </div>
+            <div class="amazing_discount">
+              <div class="amazing_discount_num">13%</div>
+            </div>
+          </div>
+          <div class="super_del">
+            <del>110,000</del>
+          </div>
+          <div class="super_timer">
+            00:00:00
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="amazing_offer_logo">
+            <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer">
+          </div>
+          <div class="super_offer_img">
+            <img src="./imgs/super_amazing/2.jpg" alt="chiken">
+          </div>
+          <div class="super_amazing_plus">
+            <img src="./svgs/supermarket/amazing/plus.svg" alt="plus">
+          </div>
+          <div class="amazing_text">
+            <p>
+              مرغ منجمد سمین - 1300 گرم
+            </p>
+          </div>
+          <div class="amazing_price super_price">
+            <div class="toman super_toman">
+              <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+              159,580
+            </div>
+            <div class="amazing_discount">
+              <div class="amazing_discount_num">1%</div>
+            </div>
+          </div>
+          <div class="super_del">
+            <del>162,200</del>
+          </div>
+          <div class="super_timer">
+            00:00:00
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main"></div>
+        <div class="swiper-slide amazing_main"></div>
+        <div class="swiper-slide amazing_main"></div>
+        <div class="swiper-slide amazing_main"></div>
+        <div class="swiper-slide amazing_main"></div>
+        <div class="swiper-slide amazing_main"></div>
+        <div class="swiper-slide amazing_main"></div>
+        <div class="swiper-slide amazing_main"></div>
+        <div class="swiper-slide amazing_last_slide">
+          <div class="amazing_last_border">
+            <img src="./svgs/amazing_peykan.svg" alt="amazing_peykan">
+          </div>
+          <h4>مشاهده همه</h4>
+        </div>
+      </div>
+      <div class="next-btn">
+        <img src="./svgs/left_navigation.svg" alt="left-nav">
+      </div>
+      <div class="prev-btn">
+        <img src="./svgs/right_navigation.svg" alt="right-nav">
+      </div>
+    </div>
+    <!-- #endregion amazing_offers-->
+    <!-- #region buy_by_soting-->
+    <h3 class="buy_by_sorting_text">خرید بر اساس دسته بندی</h3>
+    <!-- #endregion buy_by_soting-->
+  </main>
+  <!-- #endregion main-->
+  <!-- #region scripts-->
+  <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+  <script src="./scripts/sliderSwiper.js"></script>
+  <script src="./scripts/super_offer.js"></script>
+  <script src="./scripts/app.js"></script>
+  <!-- #endregion scripts-->
+</body>
+
 </html>

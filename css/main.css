@@ -80,3 +80,90 @@
         height: inherit;
     }
 }
+.main_ads{
+    width: 100%;
+    margin: 0 22px;
+    display: flex;
+    gap: 10px;
+    a{
+        width: 298px;
+        height: 224px;
+        img{
+            border-radius: 16px;
+            width: inherit;
+            height: inherit;
+        }
+    }
+}
+.super_ad_index{
+    width: 1140px;
+    height: 110px;
+    margin: 25px;
+    padding: 0 40px;
+    background-color: #EBEEED !important;
+    border-radius: 16px;
+    background: url(../svgs/freshPattern.svg) no-repeat left / 50% 100%;
+    a{
+        height: inherit;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+}
+.buy_by_sorting_text{
+    font-weight: 500;
+    font-size: 2.1rem;
+    justify-self: center;
+    margin: 50px 0;
+}
+.super_logo_ad{
+    width: 66px;
+    height: 62px;
+}
+.super_ad_imgs{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.super_amazing_ad{
+    width: 250px;
+    height: 28px;
+}
+.super_discount_ad{
+    width: 109px;
+    height: 28px;
+    background-color: #029A49;
+    border-radius: 28px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.super_ad_products{
+    display: flex;
+    margin-right: 60px;
+    gap: 10px;
+    position: relative;
+    div{
+        width: 58px;
+        height: 58px;
+        img{
+            width: inherit;
+            height: inherit;
+            border-radius: 2.5rem;
+        }
+    }
+}
+.super_ad_red_discount{
+    width: 40px !important;
+    height: 20px !important;
+    color: white;
+    background-color: #D32F2F;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 0.5px;   
+}
+.super_ad_end{
+
+}

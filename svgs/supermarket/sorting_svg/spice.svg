@@ -1,14 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <!-- شیشه/قوطی کوتاه‌تر (سمت چپ) -->
   <rect x="8" y="14" width="12" height="20" rx="2" ry="2"/>
-  <!-- درب قوطی -->
   <rect x="9.5" y="10" width="9" height="4" rx="1" ry="1"/>
 
-  <!-- بطری بلندتر (سمت راست) -->
-  <path d="M28 10 h6 a1 1 0 0 1 1 1 v4 a1 1 0 0 1 -1 1 h-6 a1 1 0 0 1 -1 -1 v-4 a1 1 0 0 1 1 -1 z" /> <!-- گردن و درب -->
+  <path d="M28 10 h6 a1 1 0 0 1 1 1 v4 a1 1 0 0 1 -1 1 h-6 a1 1 0 0 1 -1 -1 v-4 a1 1 0 0 1 1 -1 z" /> 
   <rect x="26" y="16" width="10" height="18" rx="2" ry="2"/>
 
-  <!-- برچسب‌ها/جزئیات ساده (اختیاری، برای نشان خوراکی بودن) -->
   <line x1="10" y1="22" x2="20" y2="22" />
   <line x1="10" y1="26" x2="20" y2="26" />
   <line x1="28" y1="24" x2="36" y2="24" />

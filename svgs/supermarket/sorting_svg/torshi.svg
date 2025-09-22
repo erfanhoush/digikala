@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- بدنه ظرف -->
+  <rect x="12" y="10" width="24" height="28" rx="3" ry="3"/>
+  
+  <!-- درب ظرف -->
+  <rect x="16" y="6" width="16" height="4" rx="1" ry="1"/>
+  
+  <!-- برش‌های خیار داخل ظرف -->
+  <circle cx="18" cy="20" r="3"/>
+  <circle cx="30" cy="22" r="3"/>
+  <circle cx="24" cy="30" r="3"/>
+</svg>

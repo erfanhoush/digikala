@@ -6,7 +6,7 @@
   height: 60vh;
   position: absolute;
   right: 25px;
-  /* display: none; */
+  display: none;
   z-index: 12;
   top: 42px;
 }
@@ -157,10 +157,13 @@
 .dark {
   background-color: #0c0c0c;
   width: calc(1267px * 2);
-  height: 850px;
+  height: 100vh;
   position: absolute;
   z-index: 10;
   top: 100%;
   opacity: 0.5;
-  /* display: none; */
+  display: none;
+}
+.dark:hover {
+  display: none !important;
 }
