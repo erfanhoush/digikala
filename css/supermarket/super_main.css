@@ -5,3 +5,25 @@
         background-color: #029A49;
     }
 }
+.main_swipers{
+    width: 98.5%;
+    height: max-content !important;
+    border: 1px solid #E0E0E2;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding-bottom: 3px !important;
+}
+.main_swiper_top{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+.main_swiper_top_text{
+    width: 92%;
+}
+.green_border{
+    width: 70px;
+    height: 2px;
+    background-color: #029A49;
+    margin-top: 8px;   
+}

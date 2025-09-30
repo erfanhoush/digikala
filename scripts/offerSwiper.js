@@ -1,8 +1,8 @@
 const offerSwiper = new Swiper(".amazing_swiper", {
   slidesPerView: 8.2,
-  spaceBetween: 2,
+  spaceBetween: 4,
   navigation: {
-    nextEl :".next-nav",
-    prevEl :".prev-nav",
+    nextEl :".next-btn",
+    prevEl :".prev-btn",
   },
 });

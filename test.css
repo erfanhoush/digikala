@@ -1,18 +1,13 @@
-.parent{
-    width: 500px;
-    height: 300px;
+.first{
+    width: 200px;
+    height: 200px;
     background-color: aqua;
-    margin: auto;
-    position: relative;
-    &:hover .child{
-        display: block;
+    .secend{
+        width: 100px;
+        height: 100px;
+        background-color: brown;
     }
 }
-.child{
-    width: 300px;
-    height: 150px;
-    background-color: aquamarine;
-    position: absolute;
-    top: 100%;
-    display: none;
+.secend{
+    background-color: gray;
 }
