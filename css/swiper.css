@@ -82,7 +82,9 @@
 .prev:active {
   scale: 0.97;
 }
-
+.slider{
+  .swiper-slide{cursor: pointer;}
+}
 .amazing_swiper {
   margin: 25px !important;
   border-radius: 20px;
@@ -91,6 +93,9 @@
 }
 .swiper {
   user-select: none;
+  width: 96% !important;
+}
+.amazing_swiper {
 }
 .amazing_swiper .swiper-wrapper {
   display: flex;
@@ -104,6 +109,9 @@
   text-align: center;
   height: 294px;
   cursor: pointer;
+  p {
+    margin-right: 10px;
+  }
 }
 .slide_one {
   background-color: transparent !important;
@@ -170,6 +178,7 @@
   margin-left: 10px;
   img {
     width: 16px !important;
+    height: 16px !important;
   }
 }
 .amazing_discount {
@@ -256,6 +265,7 @@
   }
 }
 .super_amazing_plus {
+  background-color: white;
   border: 1px solid #05ba58;
   border-radius: 2.5rem;
   width: 24px;
@@ -344,7 +354,7 @@
     align-items: center;
     width: 132px !important;
     cursor: pointer;
-    a{
+    a {
       width: inherit;
       /* height: inherit; */
       text-decoration: none;
@@ -352,7 +362,7 @@
       flex-flow: column;
       justify-content: center;
       align-items: center;
-      color: #0C0C0C;
+      color: #0c0c0c;
     }
     img {
       width: 100px;
@@ -361,7 +371,7 @@
     h6 {
       font-weight: 600 !important;
       margin-top: 8px;
-      color: #0C0C0C;
+      color: #0c0c0c;
     }
   }
 }
@@ -375,9 +385,10 @@
     align-items: center;
     width: 142px !important;
     height: 118px;
-    border-left: 1px solid #F0F0F1;
+    border-left: 1px solid #f0f0f1;
     margin: 0 !important;
-    img{
+    cursor: pointer;
+    img {
       width: 110px;
       height: 110px;
     }
@@ -387,22 +398,60 @@
     height: 100%;
   }
 }
-.last{border: none !important;margin: 0 !important;}
-.green .swiper-wrapper{
+.last {
+  border: none !important;
+  margin: 0 !important;
+}
+.green .swiper-wrapper {
   height: 442px;
 }
-.main_swiper{
+.main_swiper > .swiper-wrapper {
+  width: max-content !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: start !important;
+}
+.main_swiper {
+  display: flex !important;
+  align-items: center;
+  justify-content: start !important;
   height: 360px !important;
-  width: 100%;
+  width: 100% !important;
   .swiper-slide {
     width: 216px !important;
-      text-align: center;
-      font-size: 18px;
+    text-align: start !important;
+    font-size: 18px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-flow: column;
+    height: inherit !important;
+    cursor: pointer;
+    border-left: 1px solid #44474633;
+
+    p {
+      font-size: 1rem !important;
+      font-weight: 100 !important;
+      color: #3f4064;
+      margin-top: 10px;
+    }
+    .amazing_price {
+      width: inherit;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      height: inherit !important;
-      cursor: pointer;
-      border-left: 1px solid #44474633;
-    } 
+      justify-content: left;
+    }
+  }
+}
+.most_sale_swiper {
+  width: 100% !important;
+  .swiper-wrapper {
+    width: 50% !important;
+  }
+  .swiper-slide {
+    width: 300px !important;
+    height: 320px;
+  }
+}
+.slider {
+  width: 100% !important;
 }

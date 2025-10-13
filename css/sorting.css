@@ -6,7 +6,7 @@
   height: 60vh;
   position: absolute;
   right: 25px;
-  /* display: none; */
+  display: none;
   z-index: 12;
   top: 42px;
 }
@@ -167,8 +167,8 @@
   z-index: 10;
   top: 100%;
   opacity: 0.5;
-  /* display: none; */
+  display: none;
 }
 .dark:hover {
-  /* display: none !important; */
+  display: none !important;
 }

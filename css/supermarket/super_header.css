@@ -147,8 +147,8 @@
   }
 }
 .green_text {
-  &:hover {
-    background-color: #FFFFFF;
+  &:hover .select_a {
+    /* background-color: #FFFFFF; */
       color: #029A49 !important;
   }
 }

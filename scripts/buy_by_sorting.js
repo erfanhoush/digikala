@@ -1,5 +1,5 @@
 const buyswiper = new Swiper(".buy_by_sorting_swiper", {
-      slidesPerView: 8.5,
+      slidesPerView: 6.5,
       grid: {
         rows: 2,
       },

@@ -1,616 +1,1991 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>فروشگاه اینترنتی دیجی کالا</title>
-    <link rel="shortcut icon" href="./imgs/favicon.ico" type="imagex/x-icon" />
-    <link rel="stylesheet" href="./css/import.css" />
-    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-  </head>
 
-  <body>
-    <!-- #region header-->
-    <header class="super_header">
-      <!-- #region super_header_add-->
-      <div class="super_header_add">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>فروشگاه اینترنتی دیجی کالا</title>
+  <link rel="shortcut icon" href="./imgs/favicon.ico" type="imagex/x-icon" />
+  <link rel="stylesheet" href="./css/import.css" />
+  <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/all.min.css" />
+</head>
+
+<body>
+  <!-- #region header-->
+  <header class="super_header">
+    <!-- #region super_header_add-->
+    <div class="super_header_add">
+      <a href="#">
+        <img src="./imgs/super_add.jpg" alt="super_add" />
+      </a>
+    </div>
+    <!-- #region super_header_top-->
+    <div class="super_header_top">
+      <!-- #region super_logo-->
+      <div class="super_logo">
         <a href="#">
-          <img src="./imgs/super_add.jpg" alt="super_add" />
+          <img src="./imgs/fresh-header-logo.jpg" alt="supermarket_logo" class="img" />
+          <img src="./svgs/supermarket/super_logo.svg" alt="supermarket_svg" class="svg" />
         </a>
       </div>
-      <!-- #region super_header_top-->
-      <div class="super_header_top">
-        <!-- #region super_logo-->
-        <div class="super_logo">
-          <a href="#">
-            <img
-              src="./imgs/fresh-header-logo.jpg"
-              alt="supermarket_logo"
-              class="img"
-            />
-            <img
-              src="./svgs/supermarket/super_logo.svg"
-              alt="supermarket_svg"
-              class="svg"
-            />
-          </a>
+      <!-- #endregion super_logo-->
+      <!-- #region search_box-->
+      <div class="super_search_box">
+        <!-- #region search_icon-->
+        <div class="search_icon">
+          <img src="./svgs/search_icon.svg" alt="search_icon" />
         </div>
-        <!-- #endregion super_logo-->
-        <!-- #region search_box-->
-        <div class="super_search_box">
-          <!-- #region search_icon-->
-          <div class="search_icon">
-            <img src="./svgs/search_icon.svg" alt="search_icon" />
-          </div>
-          <!-- #endregion search_icon-->
-          <!-- #region search_input-->
-          <form action="">
-            <input dir="rtl" type="search" placeholder="جستجو" />
-          </form>
-          <!-- #endregion search_input-->
-        </div>
-        <!-- #endregion search_box-->
-        <!-- #region login-->
-        <div class="login">
-          <!-- #region sign_up-->
-          <div class="sign_up">
-            <a href="./login.html">
-              <img src="./svgs/login_logo.svg" alt="login_logo" />
-              ورود
-              <span></span>
-              ثبت نام
-            </a>
-          </div>
-          <!-- #endregion sign_up-->
-          <span class="between_cart_sign"></span>
-        </div>
-        <!-- #endregion login-->
-        <!-- #region basket-->
-        <div class="basket">
-          <a href="#">
-            <img src="./svgs/supermarket/super.svg" alt="" />
-          </a>
-        </div>
-        <!-- #endregion basket-->
-        <!-- #region back-->
-        <div class="back">
-          <a href="./index.html">
-            <h4>رفتن به دیجی کالا</h4>
-            <img src="./svgs/supermarket/felesh.svg" alt="back_felesh" />
-          </a>
-        </div>
-        <!-- #endregion back-->
+        <!-- #endregion search_icon-->
+        <!-- #region search_input-->
+        <form action="">
+          <input dir="rtl" type="search" placeholder="جستجو" />
+        </form>
+        <!-- #endregion search_input-->
       </div>
-      <!-- #endregion super_header_top-->
-      <div class="super_header_bottom">
-        <!-- #region super_menu-->
-        <div class="menu_items">
-          <!-- #region sorting-->
-          <div class="sorting">
-            <img src="./svgs/sorting_logo.svg" alt="sorting" />
-            <h3>دسته بندی کالاها</h3>
-            <div class="border green"></div>
-            <div class="dark"></div>
-            <!-- #region menu_items-->
-            <div class="sorting_menu">
-              <div class="sorting_select">
-                <!-- #region asasi-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/kala_asasi.svg"
-                      alt="main_products"
-                    />
-                    کالای اساسی و خاروبار
-                  </a>
-                </div>
-                <!-- #endregion asasi-->
-                <!-- #region labaniat-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/labaniat.svg"
-                      alt="labaniat"
-                    />
-                    لبنیات
-                  </a>
-                </div>
-                <!-- #endregion labaniat-->
-                <!-- #region junks-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/tanagholat.svg"
-                      alt="junks"
-                    />
-                    تنقلات
-                  </a>
-                </div>
-                <!-- #endregion junks-->
-                <!-- #region protein-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/steak.svg"
-                      alt="protein"
-                    />
-                    مواد پروتئینی و تخم مرغ
-                  </a>
-                  <!-- #region sorting_protein-->
-                  <div class="sorting_items" style="display: flex">
-                    <div class="mobile_items">
-                      <!-- #region protein_top-->
-                      <a href="#" class="sorting_top">
-                        همه محصولات مواد پروتئینی و تخم مرغ
-                        <img src="./svgs/peikan.svg" alt="peykan" />
-                      </a>
-                      <!-- #endregion protein_top-->
-                      <!-- #region protein_menu-->
-                      <div class="mobile_menu">
-                        <!-- #region protein_menu_line4-->
-                        <div class="mobile_menu_items"></div>
-                        <!-- #endregion protein_menu_line4-->
-                        <!-- #region protein_menu_line3-->
-                        <div class="mobile_menu_items"></div>
-                        <!-- #endregion protein_menu_line3-->
-                        <!-- #region protein_menu_line2-->
-                        <div class="mobile_menu_items"></div>
-                        <!-- #endregion protein_menu_line2-->
-                        <!-- #region protein_menu_line1-->
-                        <div class="mobile_menu_items"></div>
-                        <!-- #endregion protein_menu_line1-->
-                      </div>
-                      <!-- #endregion protein_menu-->
+      <!-- #endregion search_box-->
+      <!-- #region login-->
+      <div class="login">
+        <!-- #region sign_up-->
+        <div class="sign_up">
+          <a href="./login.html">
+            <img src="./svgs/login_logo.svg" alt="login_logo" />
+            ورود
+            <span></span>
+            ثبت نام
+          </a>
+        </div>
+        <!-- #endregion sign_up-->
+        <span class="between_cart_sign"></span>
+      </div>
+      <!-- #endregion login-->
+      <!-- #region basket-->
+      <div class="basket">
+        <a href="./test.html">
+          <img src="./svgs/supermarket/super.svg" alt="" />
+        </a>
+      </div>
+      <!-- #endregion basket-->
+      <!-- #region back-->
+      <div class="back">
+        <a href="./index.html">
+          <h4>رفتن به دیجی کالا</h4>
+          <img src="./svgs/supermarket/felesh.svg" alt="back_felesh" />
+        </a>
+      </div>
+      <!-- #endregion back-->
+    </div>
+    <!-- #endregion super_header_top-->
+    <div class="super_header_bottom">
+      <!-- #region super_menu-->
+      <div class="menu_items">
+        <!-- #region sorting-->
+        <div class="sorting">
+          <img src="./svgs/sorting_logo.svg" alt="sorting" />
+          <h3>دسته بندی کالاها</h3>
+          <div class="border green"></div>
+          <div class="dark"></div>
+          <!-- #region menu_items-->
+          <div class="sorting_menu">
+            <div class="sorting_select">
+              <!-- #region asasi-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/kala_asasi.svg" alt="main_products" />
+                  کالای اساسی و خاروبار
+                </a>
+              </div>
+              <!-- #endregion asasi-->
+              <!-- #region labaniat-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/labaniat.svg" alt="labaniat" />
+                  لبنیات
+                </a>
+              </div>
+              <!-- #endregion labaniat-->
+              <!-- #region junks-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/tanagholat.svg" alt="junks" />
+                  تنقلات
+                </a>
+              </div>
+              <!-- #endregion junks-->
+              <!-- #region protein-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/steak.svg" alt="protein" />
+                  مواد پروتئینی و تخم مرغ
+                </a>
+                <!-- #region sorting_protein-->
+                <div class="sorting_items" style="display: flex">
+                  <div class="mobile_items">
+                    <!-- #region protein_top-->
+                    <a href="#" class="sorting_top">
+                      همه محصولات مواد پروتئینی و تخم مرغ
+                      <img src="./svgs/peikan.svg" alt="peykan" />
+                    </a>
+                    <!-- #endregion protein_top-->
+                    <!-- #region protein_menu-->
+                    <div class="mobile_menu">
+                      <!-- #region protein_menu_line4-->
+                      <div class="mobile_menu_items"></div>
+                      <!-- #endregion protein_menu_line4-->
+                      <!-- #region protein_menu_line3-->
+                      <div class="mobile_menu_items"></div>
+                      <!-- #endregion protein_menu_line3-->
+                      <!-- #region protein_menu_line2-->
+                      <div class="mobile_menu_items"></div>
+                      <!-- #endregion protein_menu_line2-->
+                      <!-- #region protein_menu_line1-->
+                      <div class="mobile_menu_items"></div>
+                      <!-- #endregion protein_menu_line1-->
                     </div>
+                    <!-- #endregion protein_menu-->
                   </div>
-                  <!-- #endregion sorting_protein-->
                 </div>
-                <!-- #endregion protein-->
-                <!-- #region breakfast-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/breakfast.svg"
-                      alt="breakfast"
-                    />
-                    صبحانه
-                  </a>
-                </div>
-                <!-- #endregion breakfast-->
-                <!-- #region cold_drink-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/cold_drink.svg"
-                      alt="cold_drink"
-                    />
-                    نوشیدنی های سرد
-                  </a>
-                </div>
-                <!-- #endregion cold_drink-->
-                <!-- #region warm_drinks-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/warm_drinks.svg"
-                      alt="warm_drinks"
-                    />
-                    نوشیدنی های گرم
-                  </a>
-                </div>
-                <!-- #endregion warm_drinks-->
-                <!-- #region fruits-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/fruits.svg"
-                      alt="fruits"
-                    />
-                    میوه و سبزیجات
-                  </a>
-                </div>
-                <!-- #endregion fruits-->
-                <!-- #region health-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/health.svg"
-                      alt="healh"
-                    />
-                    بهداشت شخصی
-                  </a>
-                </div>
-                <!-- #endregion health-->
-                <!-- #region mother-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/mother.svg"
-                      alt="mother&kid"
-                    />
-                    مادر و کودک
-                  </a>
-                </div>
-                <!-- #endregion mother-->
-                <!-- #region house_cleanin-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="" alt="house_cleanin" />
-                    بهداشت خانگی
-                  </a>
-                  <!-- #endregion house_cleanin-->
-                  <!-- #region sweety-->
-                </div>
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/sweety.svg"
-                      alt="sweety"
-                    />
-                    خشکبار و شیرینی
-                  </a>
-                </div>
-                <!-- #endregion sweety-->
-                <!-- #region conserv-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/conserv.svg"
-                      alt="conserv"
-                    />
-                    کنسرو و غذای آماده
-                  </a>
-                </div>
-                <!-- #endregion conserv-->
-                <!-- #region spices-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/spice.svg"
-                      alt="spices"
-                    />
-                    ادویه و افزودنی ها
-                  </a>
-                </div>
-                <!-- #endregion spices-->
-                <!-- #region freeze-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/freeze.svg"
-                      alt="freeze"
-                    />
-                    فرآورده های منجمد و یخچالی
-                  </a>
-                </div>
-                <!-- #endregion freeze-->
-                <!-- #region torshi-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img
-                      src="./svgs/supermarket/sorting_svg/torshi.svg"
-                      alt="torshi"
-                    />
-                    شور و ترشیجات
-                  </a>
-                </div>
-                <!-- #endregion torshi-->
-                <!-- #region pet_shop-->
-                <div class="sorting_menu_items">
-                  <a href="#" class="select_a green_text">
-                    <img src="" alt="pet_shop" />
-                    پت شاپ
-                  </a>
-                </div>
-                <!-- #endregion pet_shop-->
+                <!-- #endregion sorting_protein-->
               </div>
+              <!-- #endregion protein-->
+              <!-- #region breakfast-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/breakfast.svg" alt="breakfast" />
+                  صبحانه
+                </a>
+              </div>
+              <!-- #endregion breakfast-->
+              <!-- #region cold_drink-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/cold_drink.svg" alt="cold_drink" />
+                  نوشیدنی های سرد
+                </a>
+              </div>
+              <!-- #endregion cold_drink-->
+              <!-- #region warm_drinks-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/warm_drinks.svg" alt="warm_drinks" />
+                  نوشیدنی های گرم
+                </a>
+              </div>
+              <!-- #endregion warm_drinks-->
+              <!-- #region fruits-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/fruits.svg" alt="fruits" />
+                  میوه و سبزیجات
+                </a>
+              </div>
+              <!-- #endregion fruits-->
+              <!-- #region health-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/health.svg" alt="healh" />
+                  بهداشت شخصی
+                </a>
+              </div>
+              <!-- #endregion health-->
+              <!-- #region mother-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/mother.svg" alt="mother&kid" />
+                  مادر و کودک
+                </a>
+              </div>
+              <!-- #endregion mother-->
+              <!-- #region house_cleanin-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/house_cleaning.svg" alt="house_cleanin" />
+                  بهداشت خانگی
+                </a>
+                <!-- #endregion house_cleanin-->
+                <!-- #region sweety-->
+              </div>
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/sweety.svg" alt="sweety" />
+                  خشکبار و شیرینی
+                </a>
+              </div>
+              <!-- #endregion sweety-->
+              <!-- #region conserv-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/conserv.svg" alt="conserv" />
+                  کنسرو و غذای آماده
+                </a>
+              </div>
+              <!-- #endregion conserv-->
+              <!-- #region spices-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/spice.svg" alt="spices" />
+                  ادویه و افزودنی ها
+                </a>
+              </div>
+              <!-- #endregion spices-->
+              <!-- #region freeze-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/freeze.svg" alt="freeze" />
+                  فرآورده های منجمد و یخچالی
+                </a>
+              </div>
+              <!-- #endregion freeze-->
+              <!-- #region torshi-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/torshi.svg" alt="torshi" />
+                  شور و ترشیجات
+                </a>
+              </div>
+              <!-- #endregion torshi-->
+              <!-- #region pet_shop-->
+              <div class="sorting_menu_items green_text">
+                <a href="#" class="select_a">
+                  <img src="./svgs/supermarket/sorting_svg/pet_shop.svg" alt="pet_shop" />
+                  پت شاپ
+                </a>
+              </div>
+              <!-- #endregion pet_shop-->
             </div>
-            <!-- #endregion menu_items-->
           </div>
-          <!-- #endregion sorting-->
-          <span class="between_sorting_amazing"></span>
-          <!-- #region amazing-->
-          <div class="top_menu">
-            <a href="#">
-              <img src="./svgs/y.svg" alt="amazing" />
-              <h5>شگفت انگیز ها</h5>
-              <div class="border green"></div>
-            </a>
-          </div>
-          <!-- #endregion amazing-->
-          <span class="between_sorting_amazing"></span>
-          <!-- #region question-->
-          <div class="super_question">
-            <a href="#">
-              <h5>سوالی دارید؟</h5>
-            </a>
-            <div class="border green"></div>
-          </div>
-          <!-- #endregion question-->
+          <!-- #endregion menu_items-->
         </div>
-        <!-- #endregion super_menu-->
-        <!-- #region super_city-->
-        <div class="super_city">
+        <!-- #endregion sorting-->
+        <span class="between_sorting_amazing"></span>
+        <!-- #region amazing-->
+        <div class="top_menu">
           <a href="#">
-            <h5>لطفا شهر خود را انتخاب کنید</h5>
-            <img src="./svgs/supermarket/city.svg" alt="super.svg" />
+            <img src="./svgs/y.svg" alt="amazing" />
+            <h5>شگفت انگیز ها</h5>
+            <div class="border green"></div>
           </a>
         </div>
-        <!-- #endregion super_city-->
-      </div>
-    </header>
-    <!-- #endregion header-->
-    <!-- #region main-->
-    <main>
-      <!-- #region swiper_ad-->
-      <div class="swiper slider">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="./imgs/super_swiper_ad/1.jpg" alt="irainain_food" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/super_swiper_ad/2.jpg" alt="washing" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/super_swiper_ad/3.jpg" alt="food" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/super_swiper_ad/4.jpg" alt="print" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/super_swiper_ad/5.jpg" alt="saffron" />
-          </div>
+        <!-- #endregion amazing-->
+        <span class="between_sorting_amazing"></span>
+        <!-- #region question-->
+        <div class="super_question">
+          <a href="#">
+            <h5>سوالی دارید؟</h5>
+          </a>
+          <div class="border green"></div>
         </div>
-        <div class="custom-pagination"></div>
-        <button class="prev-nav">
-          <img src="./svgs/right_navigation.svg" alt="right_navigation" />
-        </button>
-        <button class="next-nav">
-          <img src="./svgs/left_navigation.svg" alt="left_navigation" />
-        </button>
+        <!-- #endregion question-->
       </div>
-      <!-- #endregion swiper_ad-->
-      <!-- #region support_fix-->
-      <div class="support_fix super_support">
+      <!-- #endregion super_menu-->
+      <!-- #region super_city-->
+      <div class="super_city">
         <a href="#">
-          <img src="./svgs/support.svg" alt="support_svg" />
+          <h5>لطفا شهر خود را انتخاب کنید</h5>
+          <img src="./svgs/supermarket/city.svg" alt="super.svg" />
         </a>
       </div>
-      <!-- #endregion support_fix-->
-      <!-- #region amazing_offers-->
-      <div class="swiper amazing_swiper green" id="super-slider">
+      <!-- #endregion super_city-->
+    </div>
+  </header>
+  <!-- #endregion header-->
+  <!-- #region main-->
+  <main>
+    <!-- #region swiper_ad-->
+    <div class="swiper slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./imgs/super_swiper_ad/1.jpg" alt="irainain_food" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/super_swiper_ad/2.jpg" alt="washing" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/super_swiper_ad/3.jpg" alt="food" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/super_swiper_ad/4.jpg" alt="print" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/super_swiper_ad/5.jpg" alt="saffron" />
+        </div>
+      </div>
+      <div class="custom-pagination"></div>
+      <button class="prev-nav">
+        <img src="./svgs/right_navigation.svg" alt="right_navigation" />
+      </button>
+      <button class="next-nav">
+        <img src="./svgs/left_navigation.svg" alt="left_navigation" />
+      </button>
+    </div>
+    <!-- #endregion swiper_ad-->
+    <!-- #region support_fix-->
+    <div class="support_fix super_support">
+      <a href="#">
+        <img src="./svgs/support.svg" alt="support_svg" />
+      </a>
+    </div>
+    <!-- #endregion support_fix-->
+    <!-- #region amazing_offers-->
+    <div class="swiper amazing_swiper green" id="super-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide_one offer_first">
+          <img src="./svgs/supermarket/amazing/amazing.svg" alt="amazing_svg" />
+          <img src="./imgs/super_logo.png" alt="super_logo" />
+          <a href="#" class="super_amazing_more">مشاهده همه
+            <img src="./svgs/white_peykan.svg" alt="white_peykan" />
+          </a>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="amazing_offer_logo">
+            <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+          </div>
+          <div class="super_offer_img">
+            <img src="./imgs/super_amazing/1.jpg" alt="cheeze" />
+          </div>
+          <div class="super_amazing_plus">
+            <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+          </div>
+          <div class="amazing_text">
+            <p>پنیر لبنه آنا کاله - 350 گرم</p>
+          </div>
+          <div class="amazing_price super_price">
+            <div class="toman super_toman">
+              <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+              93,000
+            </div>
+            <div class="amazing_discount">
+              <div class="amazing_discount_num">13%</div>
+            </div>
+          </div>
+          <div class="super_del">
+            <del>110,000</del>
+          </div>
+          <div class="super_timer">00:00:00</div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="amazing_offer_logo">
+            <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+          </div>
+          <div class="super_offer_img">
+            <img src="./imgs/super_amazing/2.jpg" alt="chiken" />
+          </div>
+          <div class="super_amazing_plus">
+            <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+          </div>
+          <div class="amazing_text">
+            <p>مرغ منجمد سمین - 1300 گرم</p>
+          </div>
+          <div class="amazing_price super_price">
+            <div class="toman super_toman">
+              <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+              159,580
+            </div>
+            <div class="amazing_discount">
+              <div class="amazing_discount_num">1%</div>
+            </div>
+          </div>
+          <div class="super_del">
+            <del>162,200</del>
+          </div>
+          <div class="super_timer">00:00:00</div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/3.jpg" alt="oil" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>روغن کنجد سمن - 900 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                576,000
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">10%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>630,000</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/4.jpg" alt="soap" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>صابون بچه نارگیل فیروز - 75 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                31,000
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">16%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>36,700</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/5.jpg" alt="khorma" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>خرما مضافتی ساغر - 630 گرم </p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                292,000
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">30%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>415,000</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/6.jpg" alt="corn" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>کنسرو ذرت محفل - 380 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                58,000
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">35%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>89,000</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/7.jpg" alt="tea" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>چای شکسته سوفیا - 400 گرم </p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                335,930
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">30%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>479,900</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/8.jpg" alt="doogh" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>دوغ گازدار آبعلی - 1000 میلی لیتر </p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                32,000
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">25%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>40,000</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/9.jpg" alt="cheeze_sauce" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>پنیر چدار آلیما - 400 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                95,500
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">25%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>127,000</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/10.jpg" alt="potato" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>سيب زميني لوکوما - 2 کيلوگرم </p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                97,000
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">8%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>105,000</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/11.jpg" alt="potato" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>سیب زمینی Fresh مقدار 1 کیلوگرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                47,700
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">10%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>53,000</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/12.jpg" alt="tomatto" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>رب گوجه فرنگی بیژن - 800 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                79,120
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">20%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>98,900</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/13.jpg" alt="serkeh" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>سرکه قرمز بیژن حجم 3 لیتر</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                ,000
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>,000</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/14.jpg" alt="chips" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>خلال سیب زمینی مزمز - 900 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                288,000
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">20%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>360,000</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/15.jpg" alt="rice" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>برنج طارم محلی کاویش - 5 کیلوگرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                1.180,000
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">20%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>1,475,000</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/most_sale/index/11.jpg" alt="milk" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>شیر پر چرب پگاه - 1 لیتر </p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                59,900
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">14%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>70,000</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/16.jpg" alt="kashk" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>کشک سمیه - 650 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                127,000
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">6%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>135,000</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/17.jpg" alt="saffron" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>شربت زعفران مصطفوی - 650 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                286,550
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">50%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>573,100</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main">
+          <div class="swiper-slide amazing_main">
+            <div class="amazing_offer_logo">
+              <img src="./svgs/supermarket/amazing/amazing_offer.svg" alt="amazing_offer" />
+            </div>
+            <div class="super_offer_img">
+              <img src="./imgs/super_amazing/18.jpg" alt="crocker" />
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>خامه صبحانه کاله -200 میلی لیتر</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                33,500
+              </div>
+              <div class="amazing_discount">
+                <div class="amazing_discount_num">50%</div>
+              </div>
+            </div>
+            <div class="super_del">
+              <del>67,000</del>
+            </div>
+            <div class="super_timer">00:00:00</div>
+          </div>
+        </div>
+        <div class="swiper-slide amazing_main amazing_last_slide">
+          <div class="amazing_last_border">
+            <img src="./svgs/amazing_peykan.svg" alt="amazing_peykan" />
+          </div>
+          <h4>مشاهده همه</h4>
+        </div>
+      </div>
+      <div class="next-btn">
+        <img src="./svgs/left_navigation.svg" alt="left-nav" />
+      </div>
+      <div class="prev-btn">
+        <img src="./svgs/right_navigation.svg" alt="right-nav" />
+      </div>
+    </div>
+    <!-- #endregion amazing_offers-->
+    <!-- #region buy_by_soting-->
+    <h3 class="buy_by_sorting_text">خرید بر اساس دسته بندی</h3>
+    <!-- #region swiper-->
+    <div class="buy_by_sorting_swiper swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/main_products.png" alt="main" />
+          <h6>کالاهای اساسی و خواربار</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/mother.png" alt="mother">
+          <h6>مادر و کودک</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/milk.png" alt="milk">
+          <h6>لبنیات</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/house_cleaning.png" alt="house_cleaning">
+          <h6>بهداشت خانگی</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/candy.png" alt="candy">
+          <h6>تنقلات</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/sweety.png" alt="sweety">
+          <h6>خشکبار و شیرینی</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/protein.png" alt="protein">
+          <h6>مواد پروتئینی و تخم مرغ</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/can.png" alt="can">
+          <h6>کنسرو و غذای آماده</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/breakfast.png" alt="breakfast">
+          <h6>صبحانه</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/cold_drinks.png" alt="cold_drinks">
+          <h6>نوشیدنی‌های سرد</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/freeze.jpg" alt="freeze">
+          <h6>فرآورده‌های منجمد و یخچالی</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/warm_drinks.png" alt="warm_drinks">
+          <h6>نوشیدنی‌های گرم</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/sour.png" alt="sour">
+          <h6>شور و ترشیجات</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/fruits.png" alt="fruits">
+          <h6>میوه و سبزیجات</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/extras.png" alt="extras">
+          <h6>افزودنی ها</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/pet_food.png" alt="pet_food">
+          <h6>غذا و مکمل حیوانات خانگی</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/personal_health.png" alt="personal_health">
+          <h6>بهداشت شخصی</h6>
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/buy_by_sorting/super/more.png" alt="more">
+          <h6>سایر</h6>
+        </div>
+      </div>
+      <div class="next-btn">
+        <img src="./svgs/left_navigation.svg" alt="left-nav" />
+      </div>
+      <div class="prev-btn">
+        <img src="./svgs/right_navigation.svg" alt="right-nav" />
+      </div>
+    </div>
+    <!-- #endregion swiper-->
+    <!-- #endregion buy_by_soting-->
+    <!-- #region self_care-->
+    <!-- #region top-->
+    <div class="main_swipers">
+      <div class="main_swiper_top">
+        <div class="main_swiper_top_text">
+          <h4>انواع محصولات بهداشت شخصی</h4>
+          <div class="green_border"></div>
+        </div>
+        <a href="#" class="sorting_top">
+          مشاهده همه
+          <img src="./svgs/peikan.svg" alt="peikan" />
+        </a>
+      </div>
+      <!-- #endregion top-->
+      <!-- #region swiper-->
+      <div class="swiper main_swiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide slide_one offer_first">
-            <img
-              src="./svgs/supermarket/amazing/amazing.svg"
-              alt="amazing_svg"
-            />
-            <img src="./imgs/super_logo.png" alt="super_logo" />
-            <a href="#" class="super_amazing_more"
-              >مشاهده همه
-              <img src="./svgs/white_peykan.svg" alt="white_peykan" />
-            </a>
-          </div>
           <div class="swiper-slide amazing_main">
-            <div class="amazing_offer_logo">
-              <img
-                src="./svgs/supermarket/amazing/amazing_offer.svg"
-                alt="amazing_offer"
-              />
-            </div>
-            <div class="super_offer_img">
-              <img src="./imgs/super_amazing/1.jpg" alt="cheeze" />
-            </div>
-            <div class="super_amazing_plus">
-              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
-            </div>
+            <div class="super_offer_img"><img src="./imgs/super_health_care/2.jpg" alt="shampoo"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
             <div class="amazing_text">
-              <p>پنیر لبنه آنا کاله - 350 گرم</p>
+              <p>شامپو مخصوص موهای چرب داو مدل Purifying حجم 400 میلی لیتر</p>
             </div>
             <div class="amazing_price super_price">
               <div class="toman super_toman">
-                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
-                93,000
-              </div>
-              <div class="amazing_discount">
-                <div class="amazing_discount_num">13%</div>
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                233,600
               </div>
             </div>
-            <div class="super_del">
-              <del>110,000</del>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide amazing_main">
+              <div class="super_offer_img">
+                <img src="./imgs/super_health_care/1.jpg" alt="toothpaste" />
+              </div>
+              <div class="super_amazing_plus">
+                <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+              </div>
+              <div class="amazing_text">
+                <p>خمیر دندان ضد پوسیدگی سیگنال مدل Original حجم 100 میلی لیتر</p>
+              </div>
+              <div class="amazing_price super_price">
+                <div class="toman super_toman">
+                  <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                  103,800
+                </div>
+              </div>
             </div>
-            <div class="super_timer">00:00:00</div>
           </div>
           <div class="swiper-slide amazing_main">
-            <div class="amazing_offer_logo">
-              <img
-                src="./svgs/supermarket/amazing/amazing_offer.svg"
-                alt="amazing_offer"
-              />
-            </div>
-            <div class="super_offer_img">
-              <img src="./imgs/super_amazing/2.jpg" alt="chiken" />
-            </div>
-            <div class="super_amazing_plus">
-              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
-            </div>
+            <div class="super_offer_img"><img src="./imgs/super_health_care/3.jpg" alt="shampoo_ave"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
             <div class="amazing_text">
-              <p>مرغ منجمد سمین - 1300 گرم</p>
+              <p>شامپو مو اوه مدل Effective Oils حجم 400 میلی لیتر</p>
             </div>
             <div class="amazing_price super_price">
               <div class="toman super_toman">
-                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
-                159,580
-              </div>
-              <div class="amazing_discount">
-                <div class="amazing_discount_num">1%</div>
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                142,300
               </div>
             </div>
-            <div class="super_del">
-              <del>162,200</del>
-            </div>
-            <div class="super_timer">00:00:00</div>
           </div>
-          <div class="swiper-slide amazing_main"></div>
-          <div class="swiper-slide amazing_main"></div>
-          <div class="swiper-slide amazing_main"></div>
-          <div class="swiper-slide amazing_main"></div>
-          <div class="swiper-slide amazing_main"></div>
-          <div class="swiper-slide amazing_main"></div>
-          <div class="swiper-slide amazing_main"></div>
-          <div class="swiper-slide amazing_main"></div>
-          <div class="swiper-slide amazing_last_slide">
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/super_health_care/4.jpg" alt="shampoo"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>شامپو مو اکتیو مدل مرطوب کننده Silk Protein حجم 350 میلی لیتر</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                121,300
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/super_health_care/5.jpg" alt="shampoo"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>شامپو روزانه مو پرژک مدل بابونه مناسب انواع مو حجم 450 میلی لیتر</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                66,000
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/super_health_care/6.jpg" alt="shampoo"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>شامپو بدن مردانه اکتیو سری Sport مدل Silver مقدار 400 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۱۰۱,۰۰۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/super_health_care/7.jpg" alt="shampoo"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>شامپو مو شاوما مدل Repair & Care حجم 400 میلی لیتر</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۲۱۲,۰۰۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/super_health_care/8.jpg" alt="shampoo"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>شامپو بدن گلرنگ مدل Scrub Green مقدار 280 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۶۳,۵۹۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/super_health_care/9.jpg" alt="shampoo"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>شامپو بدن اوه مدل بامبو وزن 400 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۸۹,۳۳۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/super_health_care/10.jpg" alt="molped">
+            </div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>نوار بهداشتی مولپد مدل اولترا سایز متوسط بسته 10 عددی</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                63,000
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/super_health_care/11.jpg" alt="shampoo"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>شامپو مو گلرنگ مدل Multivitamin وزن 900 گرم </p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                119,300
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/super_health_care/12.jpg" alt="tooth_paste"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>خمیر دندان مریدنت مدل 7 Complete مقدار 130 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                81,570
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/super_health_care/13.jpg" alt="shampoo"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>خمیر دندان سفیدکننده کلوس آپ مدل Winter Blast وزن 125 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                98,500
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/super_health_care/14.jpg" alt="shampoo"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p></p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/super_health_care/15.jpg" alt="shampoo"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p></p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/super_health_care/16.jpg" alt="shampoo"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p></p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main amazing_last_slide">
             <div class="amazing_last_border">
               <img src="./svgs/amazing_peykan.svg" alt="amazing_peykan" />
             </div>
             <h4>مشاهده همه</h4>
           </div>
         </div>
-        <div class="next-btn">
-          <img src="./svgs/left_navigation.svg" alt="left-nav" />
-        </div>
-        <div class="prev-btn">
-          <img src="./svgs/right_navigation.svg" alt="right-nav" />
-        </div>
-      </div>
-      <!-- #endregion amazing_offers-->
-      <!-- #region buy_by_soting-->
-      <h3 class="buy_by_sorting_text">خرید بر اساس دسته بندی</h3>
-      <!-- #region swiper-->
-      <div class="buy_by_sorting_swiper swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/main_products.png" alt="main"/>
-            <h6>کالاهای اساسی و خواربار</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/mother.png" alt="mother">
-            <h6>مادر و کودک</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/milk.png" alt="milk">
-            <h6>لبنیات</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/house_cleaning.png" alt="house_cleaning">
-            <h6>بهداشت خانگی</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/candy.png" alt="candy">
-            <h6>تنقلات</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/sweety.png" alt="sweety">
-            <h6>خشکبار و شیرینی</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/protein.png" alt="protein">
-            <h6>مواد پروتئینی و تخم مرغ</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/can.png" alt="can">
-            <h6>کنسرو و غذای آماده</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/breakfast.png" alt="breakfast">
-            <h6>صبحانه</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/cold_drinks.png" alt="cold_drinks">
-            <h6>نوشیدنی‌های سرد</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/freeze.jpg" alt="freeze">
-            <h6>فرآورده‌های منجمد و یخچالی</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/warm_drinks.png" alt="warm_drinks">
-            <h6>نوشیدنی‌های گرم</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/sour.png" alt="sour">
-            <h6>شور و ترشیجات</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/fruits.png" alt="fruits">
-            <h6>میوه و سبزیجات</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/extras.png" alt="extras">
-            <h6>افزودنی ها</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/pet_food.png" alt="pet_food">
-            <h6>غذا و مکمل حیوانات خانگی</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/personal_health.png" alt="personal_health">
-            <h6>بهداشت شخصی</h6>
-          </div>
-          <div class="swiper-slide">
-            <img src="./imgs/buy_by_sorting/super/more.png" alt="more">
-            <h6>سایر</h6>
-          </div>
-        </div>
-        <div class="next-btn">
-          <img src="./svgs/left_navigation.svg" alt="left-nav" />
-        </div>
-        <div class="prev-btn">
-          <img src="./svgs/right_navigation.svg" alt="right-nav" />
-        </div>
+        <div class="next-btn"><img src="./svgs/left_navigation.svg" alt="left-nav"></div>
+        <div class="prev-btn"><img src="./svgs/right_navigation.svg" alt="right-nav"></div>
       </div>
       <!-- #endregion swiper-->
-      <!-- #endregion buy_by_soting-->
-      <!-- #region self_care-->
-      <!-- #region top-->
-      <div class="main_swipers">
-        <div class="main_swiper_top">
-          <div class="main_swiper_top_text">
-            <h4>انواع محصولات بهداشت شخصی</h4>
-            <div class="green_border"></div>
-          </div>
-          <a href="#" class="sorting_top">
-            مشاهده همه
-            <img src="./svgs/peikan.svg" alt="peikan" />
-          </a>
+    </div>
+    <!-- #endregion self_care-->
+    <!-- #region cleaning_siper-->
+    <!-- #region top-->
+    <div class="main_swipers">
+      <div class="main_swiper_top">
+        <div class="main_swiper_top_text">
+          <h4>انواع محصولات شوینده و بهداشتی</h4>
+          <div class="green_border"></div>
         </div>
-        <!-- #endregion top-->
-        <!-- #region swiper-->
-        <div class="swiper main_swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            <div class="swiper-slide">Slide 4</div>
-            <div class="swiper-slide">Slide 5</div>
-            <div class="swiper-slide">Slide 6</div>
-            <div class="swiper-slide">Slide 7</div>
-            <div class="swiper-slide">Slide 8</div>
-            <div class="swiper-slide">Slide 9</div>
-            <div class="swiper-slide"></div>
-            <div class="swiper-slide"></div>
-            <div class="swiper-slide"></div>
-            <div class="swiper-slide"></div>
-            <div class="swiper-slide"></div>
-            <div class="swiper-slide"></div>
-            <div class="swiper-slide"></div>
-          </div>
-          <div class="next-btn"><img src="./svgs/left_navigation.svg" alt="left-nav"></div>
-          <div class="prev-btn"><img src="./svgs/right_navigation.svg" alt="right-nav"></div>
-        </div>
-        <!-- #endregion swiper-->
+        <a href="#" class="sorting_top">
+          مشاهده همه
+          <img src="./svgs/peikan.svg" alt="peikan" />
+        </a>
       </div>
-      <!-- #endregion self_care-->
-    </main>
-    <!-- #endregion main-->
-    <!-- #region scripts-->
-    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
-    <script src="./scripts/sliderSwiper.js"></script>
-    <script src="./scripts/super_offer.js"></script>
-    <script src="./scripts/app.js"></script>
-    <script src="./scripts/buy_by_sorting.js"></script>
-    <script src="./scripts/main_swiper.js"></script>
-    <!-- #endregion scripts-->
-  </body>
+      <!-- #endregion top-->
+      <!-- #region swiper-->
+      <div class="swiper main_swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img">
+            <img src="./imgs/cleaning/1.jpg" alt="soap">
+            </div>
+            <div class="super_amazing_plus">
+              <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+            </div>
+            <div class="amazing_text">
+              <p>نرم کننده حوله و لباس اکتیو مدل طلایی حجم 2500 میلی لیتر</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                163,900
+              </div>
+            </div>
+          </div>
+            <div class="swiper-slide amazing_main">
+              <div class="super_offer_img">
+                <img src="./imgs/cleaning/2.jpg" alt="soap" />
+              </div>
+              <div class="super_amazing_plus">
+                <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+              </div>
+              <div class="amazing_text">
+                <p>مایع لباسشویی پرسیل مدل لاوندر وزن 2.7 کیلوگرم</p>
+              </div>
+              <div class="amazing_price super_price">
+                <div class="toman super_toman">
+                  <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                  ۳۶۳,۹۱۰
+                </div>
+              </div>
+            </div>
+          <div class="swiper-slide">
+            <div class="super_offer_img"><img src="./imgs/cleaning/3.jpg" alt="cleaning"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>مایع ظرفشویی هوم پلاس مدل Lime 8in1 وزن 3.75 کیلوگرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۲۸۰,۶۸۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main">
+            <div class="super_offer_img"><img src="./imgs/cleaning/4.jpg" alt="cleaning"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>مایع ظرفشویی هوم پلاس مدل Lime 8in1 وزن 3.75 کیلوگرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۳۱۲,۱۰۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="super_offer_img"><img src="./imgs/cleaning/5.jpg" alt="cleaning"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>نرم کننده حوله و لباس اکتیو مدل صورتی حجم 2500 میلی لیتر</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۱۵۸,۲۰۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="super_offer_img"><img src="./imgs/cleaning/6.jpg" alt="cleaning"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>نمک ماشین ظرفشویی هوم پلاس کد 01 وزن 2 کیلوگرم	</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۱۱۵,۴۴۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="super_offer_img"><img src="./imgs/cleaning/7.jpg" alt="cleaning"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>شیشه پاک‌کن ضدبخار سبزآبی اکتیو حجم 500 میلی‌ لیتر</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۵۹,۷۰۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="super_offer_img"><img src="./imgs/cleaning/8.jpg" alt="cleaning"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>مایع ظرفشویی گلرنگ مدل پرتقال تو سرخ حجم 3500 میلی‌لیتر </p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۲۴۶,۷۹۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="super_offer_img"><img src="./imgs/cleaning/9.jpg" alt="cleaning"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>مایع سفید کننده گلرنگ سری House Dream مقدار 4000 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۱۲۰,۸۲۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="super_offer_img"><img src="./imgs/cleaning/10.jpg" alt="cleaning"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>فوم دستشویی اوه مدل Purple وزن 500 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۷۲,۰۰۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="super_offer_img"><img src="./imgs/cleaning/11.jpg" alt="cleaning"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>مایع دستشویی صدفی گلرنگ مدل red وزن 2 کیلوگرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۱۸۰,۴۰۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="super_offer_img"><img src="./imgs/cleaning/12.jpg" alt="cleaning"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>پودر رختشویی دستی سافتلن مقدار 500 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۳۷,۴۷۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="super_offer_img"><img src="./imgs/cleaning/13.jpg" alt="cleaning"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p>پودر ماشین لباسشویی پرسیل مدل پریمیوم وزن 600 گرم</p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+                ۹۶,۸۶۰
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="super_offer_img"><img src="./imgs/cleaning/14.jpg" alt="cleaning"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p></p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="super_offer_img"><img src="./imgs/cleaning/15.jpg" alt="cleaning"></div>
+            <div class="super_amazing_plus"><img src="./svgs/supermarket/amazing/plus.svg" alt="plus"></div>
+            <div class="amazing_text">
+              <p></p>
+            </div>
+            <div class="amazing_price super_price">
+              <div class="toman super_toman">
+                <img src="./svgs/toman.svg" alt="toman" class="toman_img">
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide amazing_main amazing_last_slide">
+            <div class="amazing_last_border">
+              <img src="./svgs/amazing_peykan.svg" alt="amazing_peykan" />
+            </div>
+            <h4>مشاهده همه</h4>
+          </div>
+        </div>
+        <div class="next-btn"><img src="./svgs/left_navigation.svg" alt="left-nav"></div>
+        <div class="prev-btn"><img src="./svgs/right_navigation.svg" alt="right-nav"></div>
+      </div>
+      <!-- #endregion swiper-->
+    </div>
+    <!-- #endregion cleaning_swiper-->
+    <!-- #region swiper_kid-->
+    <!-- #region top-->
+    <div class="main_swipers">
+      <div class="main_swiper_top">
+        <div class="main_swiper_top_text">
+          <h4>انواع محصولات پوشک و مراقبت کودک</h4>
+          <div class="green_border"></div>
+        </div>
+        <a href="#" class="sorting_top">
+          مشاهده همه
+          <img src="./svgs/peikan.svg" alt="peikan" />
+        </a>
+      </div>
+      <!-- #endregion top-->
+      <!-- #region swiper-->
+      <div class="swiper main_swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./imgs/super_health_care/1.jpg" alt="toothpaste" style="width: 150px; height: 150px;">
+
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide amazing_main">
+
+              <div class="super_offer_img">
+                <img src="./imgs/super_health_care/1.jpg" alt="toothpaste" />
+              </div>
+              <div class="super_amazing_plus">
+                <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+              </div>
+              <div class="amazing_text">
+                <p>خمیر دندان ضد پوسیدگی سیگنال مدل Original حجم 100 میلی لیتر</p>
+              </div>
+              <div class="amazing_price super_price">
+                <div class="toman super_toman">
+                  <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                  103,800
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide amazing_main amazing_last_slide">
+            <div class="amazing_last_border">
+              <img src="./svgs/amazing_peykan.svg" alt="amazing_peykan" />
+            </div>
+            <h4>مشاهده همه</h4>
+          </div>
+        </div>
+        <div class="next-btn"><img src="./svgs/left_navigation.svg" alt="left-nav"></div>
+        <div class="prev-btn"><img src="./svgs/right_navigation.svg" alt="right-nav"></div>
+      </div>
+      <!-- #endregion swiper-->
+    </div>
+    <!-- #endregion swiper_kid-->
+    <!-- #region most_hot-->
+    <div class="most_slaes">
+      <!-- #region top-->
+      <div class="most_sales_top">
+        <img src="./svgs/most_slae_swiper.svg" alt="most_sale">
+        <h2>داغ ترین چند ساعت گذشته</h2>
+      </div>
+      <!-- #endregion top-->
+      <!-- #region swiper-->
+      <div class="swiper most_sale_swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slots">
+              <img src="./imgs/most_hot/super/1.jpg" alt="cleaner">
+              <span>1</span>
+              <p>مایع دستشویی گلرنگ مدل صدفی وزن 3500 گرم</p>
+            </div>
+            <div class="slots">
+              <img src="./imgs/most_hot/super/2.jpg" alt="milk">
+              <span>2</span>
+              <p>شیر سویا مانداسوی با طعم کاکائو - 1 لیتر</p>
+            </div>
+            <div class="slots last">
+              <img src="./imgs/most_hot/super/3.jpg" alt="meat">
+              <span>3</span>
+              <p>گوشت قیمه‌ای گوساله داخلی مهیا پروتئین - 0.5 کیلوگرم</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slots">
+              <img src="./imgs/most_hot/super/4.jpg" alt="dragon_fruit">
+              <span>4</span>
+              <p>دراگون Fresh - یک عدد</p>
+            </div>
+            <div class="slots">
+              <img src="./imgs/most_hot/super/5.jpg" alt="gloves">
+              <span>5</span>
+              <p>دستکش نظافت دستکش گیلان مدل S کد 002</p>
+            </div>
+            <div class="slots last">
+              <img src="./imgs/most_hot/super/6.jpg" alt="sausage">
+              <span>6</span>
+              <p>سوسيس آلمانی 40 درصد گوشت قرمز مهياپروتئين - 1 کيلوگرم</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slots">
+              <img src="./imgs/most_hot/super/7.jpg" alt="tissue">
+              <span>7</span>
+              <p>دستمال توالت کیولین مدل چهار لایه بسته 2 عددی</p>
+            </div>
+            <div class="slots">
+              <img src="./imgs/most_hot/super/8.jpg" alt="tea">
+              <span>8</span>
+              <p>چای ارل گری چای احمد - 200 گرم </p>
+            </div>
+            <div class="slots last">
+              <img src="./imgs/most_hot/super/9.jpg" alt="toothpaste">
+              <span>9</span>
+              <p>خمیر دندان کودک مریدنت مدل ژله ای حجم 70 میلی لیتر</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slots">
+              <img src="./imgs/most_hot/super/10.jpg" alt="shampoo">
+              <span>10</span>
+              <p>شامپو سر نوزاد و کودک پینو بیبی - NORMAL وزن 350 گرم</p>
+            </div>
+            <div class="slots">
+              <img src="./imgs/most_hot/super/11.jpg" alt="beacen">
+              <span>11</span>
+              <p>کالباس 60 درصد قارچ و مرغ مهيا پروتئين - 250 گرم</p>
+            </div>
+            <div class="slots last">
+              <img src="./imgs/most_hot/super/12.jpg" alt="nut">
+              <span>12</span>
+              <p>مغز گردو هیرشا - 400 گرم</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slots">
+              <img src="./imgs/most_hot/super/13.jpg" alt="oil">
+              <span>13</span>
+              <p>روغن مایع گیاهی سرخ‌کردنی طبیعت - 1.5 میلی‌لیتر</p>
+            </div>
+            <div class="slots">
+              <img src="./imgs/most_hot/super/14.jpg" alt="coffee">
+              <span>14</span>
+              <p>کافی کریمر کلاسنو بسته 50 عددی</p>
+            </div>
+            <div class="slots last">
+              <img src="./imgs/most_hot/super/15.jpg" alt="serkeh">
+              <span>15</span>
+              <p>سرکه سفید پیک - 3000 گرم</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slots">
+              <img src="./imgs/most_hot/super/16.jpg" alt="rice">
+              <span>16</span>
+              <p>برنج طارم استخوانی گیلان رفتاری - 5 کیلوگرم</p>
+            </div>
+            <div class="slots">
+              <img src="./imgs/most_hot/super/17.jpg" alt="pine_apple">
+              <span>17</span>
+              <p>کمپوت آناناس چانک پیک - 227 گرم</p>
+            </div>
+            <div class="slots last">
+              <img src="./imgs/most_hot/super/18.jpg" alt="toothpaste">
+              <span>18</span>
+              <p>خمیر دندان اکتیدنت مدل Ultra Protect وزن 100 گرم</p>
+            </div>
+          </div>
+        </div>
+        <div class="next-btn"><img src="./svgs/left_navigation.svg" alt="left-nav"></div>
+        <div class="prev-btn"><img src="./svgs/right_navigation.svg" alt="right-nav"></div>
+      </div>
+      <!-- #endregion swiper-->
+    </div>
+    <!-- #endregion most_hot-->
+    <!-- #region most_sales-->
+    <div class="most_slaes">
+      <!-- #region top-->
+      <div class="most_sales_top">
+        <img src="./svgs/most_slae_swiper.svg" alt="most_sale">
+        <h2>پر فروش ترین کالا ها</h2>
+        <a href="#">مشاهده همه</a>
+      </div>
+      <!-- #endregion top-->
+      <!-- #region swiper-->
+      <div class="swiper most_sale_swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slots">
+              <img src="./imgs/most_sale/super/1.jpg" alt="oil">
+              <span>1</span>
+              <p>روغن مایع آفتابگردان بدون پالم فامیلا - 1350 میلی‌لیتر</p>
+            </div>
+            <div class="slots">
+              <img src="./imgs/most_sale/super/2.jpg" alt="beacen">
+              <span>2</span>
+              <p>کالباس 90 درصد گوشت مرغ مهيا پروتئين - 250 گرم</p>
+            </div>
+            <div class="slots last">
+              <img src="./imgs/most_sale/super/3.jpg" alt="soia_milk">
+              <span>3</span>
+              <p>شیر سویا مانداسوی با طعم کاکائو - 1 لیتر </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slots">
+              <img src="./imgs/most_sale/super/4.jpg" alt="lemonade">
+              <span>4</span>
+              <p>نوشابه لیموناد گازدار زمزم - 1 لیتر بسته 6 عددی </p>
+            </div>
+            <div class="slots">
+              <img src="./imgs/most_sale/super/5.jpg" alt="oil">
+              <span>5</span>
+              <p>روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 1.8 لیتر</p>
+            </div>
+            <div class="slots last">
+              <img src="./imgs/most_sale/super/6.jpg" alt="milk">
+              <span>6</span>
+              <p>شیر پرچرب رامک - 0.2 لیتر</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slots">
+              <img src="./imgs/most_sale/super/7.jpg" alt="lazania">
+              <span>7</span>
+              <p>لازانیا سریع پخت مانا - 450 گرم</p>
+            </div>
+            <div class="slots">
+              <img src="./imgs/most_sale/super/8.jpg" alt="oil">
+              <span>8</span>
+              <p>لازانیا سریع پخت مانا - 450 گرم</p>
+            </div>
+            <div class="slots last">
+              <img src="./imgs/most_sale/index/2.jpg" alt="tunna">
+              <span>9</span>
+              <p>کنسرو ماهی تن در روغن گالکسی - 180 گرم</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slots">
+              <img src="./imgs/most_sale/super/10.jpg" alt="oil">
+              <span>10</span>
+              <p>روغن مخصوص سرخ کردنی بهار - 810 گرم</p>
+            </div>
+            <div class="slots">
+              <img src="./imgs/most_sale/super/11.jpg" alt="rice">
+              <span>11</span>
+              <p>برنج هاشمی گیلان رفتاری - 10 کیلوگرم</p>
+            </div>
+            <div class="slots last">
+              <img src="./imgs/most_sale/super/12.jpg" alt="cream">
+              <span>12</span>
+              <p>خامه پگاه - 250 گرم </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slots">
+              <img src="./imgs/most_sale/super/13.jpg" alt="milk">
+              <span>13</span>
+              <p>شیر پر چرب پگاه - 1 لیتر </p>
+            </div>
+            <div class="slots">
+              <img src="./imgs/most_sale/super/14.jpg" alt="oil">
+              <span>14</span>
+              <p>روغن کانولا بالانسر اویلا - 700 میلی لیتر</p>
+            </div>
+            <div class="slots last">
+              <img src="./imgs/most_sale/super/15.png" alt="nabat">
+              <span>15</span>
+              <p>نبات زعفرانی مصطفوی مقدار 300 گرم</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slots">
+              <img src="./imgs/most_sale/super/16.jpg" alt="yougert">
+              <span>16</span>
+              <p>ماست کم چرب دومینو - 2000 گرم</p>
+            </div>
+            <div class="slots">
+              <img src="./imgs/super_amazing/2.jpg" alt="chicken">
+              <span>17</span>
+              <p>مرغ منجمد سمین - 1100 گرم</p>
+            </div>
+            <div class="slots last">
+              <img src="./imgs/super_amazing/2.jpg" alt="chicken">
+              <span>18</span>
+              <p>مرغ منجمد سمین - 1000 گرم</p>
+            </div>
+          </div>
+        </div>
+        <div class="next-btn"><img src="./svgs/left_navigation.svg" alt="left-nav"></div>
+        <div class="prev-btn"><img src="./svgs/right_navigation.svg" alt="right-nav"></div>
+      </div>
+      <!-- #endregion swiper-->
+    </div>
+    <!-- #endregion mosth_sales-->
+    <!-- #region chips_swiper-->
+    <!-- #region top-->
+    <div class="main_swipers">
+      <div class="main_swiper_top">
+        <div class="main_swiper_top_text">
+          <h4>انواع تنقلات</h4>
+          <div class="green_border"></div>
+        </div>
+        <a href="#" class="sorting_top">
+          مشاهده همه
+          <img src="./svgs/peikan.svg" alt="peikan" />
+        </a>
+      </div>
+      <!-- #endregion top-->
+      <!-- #region swiper-->
+      <div class="swiper main_swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./imgs/super_health_care/1.jpg" alt="toothpaste" style="width: 150px; height: 150px;">
+
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide amazing_main">
+
+              <div class="super_offer_img">
+                <img src="./imgs/super_health_care/1.jpg" alt="toothpaste" />
+              </div>
+              <div class="super_amazing_plus">
+                <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+              </div>
+              <div class="amazing_text">
+                <p>خمیر دندان ضد پوسیدگی سیگنال مدل Original حجم 100 میلی لیتر</p>
+              </div>
+              <div class="amazing_price super_price">
+                <div class="toman super_toman">
+                  <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                  103,800
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide amazing_main amazing_last_slide">
+            <div class="amazing_last_border">
+              <img src="./svgs/amazing_peykan.svg" alt="amazing_peykan" />
+            </div>
+            <h4>مشاهده همه</h4>
+          </div>
+        </div>
+        <div class="next-btn"><img src="./svgs/left_navigation.svg" alt="left-nav"></div>
+        <div class="prev-btn"><img src="./svgs/right_navigation.svg" alt="right-nav"></div>
+      </div>
+      <!-- #endregion swiper-->
+    </div>
+    <!-- #endregion chios_swipoer-->
+    <!-- #region drinks_swiper-->
+    <!-- #region top-->
+    <div class="main_swipers">
+      <div class="main_swiper_top">
+        <div class="main_swiper_top_text">
+          <h4>انواع نوشیدنی</h4>
+          <div class="green_border"></div>
+        </div>
+        <a href="#" class="sorting_top">
+          مشاهده همه
+          <img src="./svgs/peikan.svg" alt="peikan" />
+        </a>
+      </div>
+      <!-- #endregion top-->
+      <!-- #region swiper-->
+      <div class="swiper main_swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./imgs/super_health_care/1.jpg" alt="toothpaste" style="width: 150px; height: 150px;">
+
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide amazing_main">
+
+              <div class="super_offer_img">
+                <img src="./imgs/super_health_care/1.jpg" alt="toothpaste" />
+              </div>
+              <div class="super_amazing_plus">
+                <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+              </div>
+              <div class="amazing_text">
+                <p>خمیر دندان ضد پوسیدگی سیگنال مدل Original حجم 100 میلی لیتر</p>
+              </div>
+              <div class="amazing_price super_price">
+                <div class="toman super_toman">
+                  <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                  103,800
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide amazing_main amazing_last_slide">
+            <div class="amazing_last_border">
+              <img src="./svgs/amazing_peykan.svg" alt="amazing_peykan" />
+            </div>
+            <h4>مشاهده همه</h4>
+          </div>
+        </div>
+        <div class="next-btn"><img src="./svgs/left_navigation.svg" alt="left-nav"></div>
+        <div class="prev-btn"><img src="./svgs/right_navigation.svg" alt="right-nav"></div>
+      </div>
+      <!-- #endregion swiper-->
+    </div>
+    <!-- #endregion drinks_swiper-->
+    <!-- #region tissue-->
+    <!-- #region top-->
+    <div class="main_swipers">
+      <div class="main_swiper_top">
+        <div class="main_swiper_top_text">
+          <h4>انواع دستمال کاغذی و محصولات یکبار مصرف</h4>
+          <div class="green_border"></div>
+        </div>
+        <a href="#" class="sorting_top">
+          مشاهده همه
+          <img src="./svgs/peikan.svg" alt="peikan" />
+        </a>
+      </div>
+      <!-- #endregion top-->
+      <!-- #region swiper-->
+      <div class="swiper main_swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./imgs/super_health_care/1.jpg" alt="toothpaste" style="width: 150px; height: 150px;">
+
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide amazing_main">
+
+              <div class="super_offer_img">
+                <img src="./imgs/super_health_care/1.jpg" alt="toothpaste" />
+              </div>
+              <div class="super_amazing_plus">
+                <img src="./svgs/supermarket/amazing/plus.svg" alt="plus" />
+              </div>
+              <div class="amazing_text">
+                <p>خمیر دندان ضد پوسیدگی سیگنال مدل Original حجم 100 میلی لیتر</p>
+              </div>
+              <div class="amazing_price super_price">
+                <div class="toman super_toman">
+                  <img src="./svgs/toman.svg" alt="toman" class="toman_img" />
+                  103,800
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide amazing_main amazing_last_slide">
+            <div class="amazing_last_border">
+              <img src="./svgs/amazing_peykan.svg" alt="amazing_peykan" />
+            </div>
+            <h4>مشاهده همه</h4>
+          </div>
+        </div>
+        <div class="next-btn"><img src="./svgs/left_navigation.svg" alt="left-nav"></div>
+        <div class="prev-btn"><img src="./svgs/right_navigation.svg" alt="right-nav"></div>
+      </div>
+      <!-- #endregion swiper-->
+    </div>
+    <!-- #endregion tissue-->
+    <hr>
+  </main>
+  <!-- #endregion main-->
+  <!-- #region scripts-->
+  <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+  <script src="./scripts/sliderSwiper.js"></script>
+  <script src="./scripts/super_offer.js"></script>
+  <script src="./scripts/app.js"></script>
+  <script src="./scripts/buy_by_sorting.js"></script>
+  <script src="./scripts/main_swiper.js"></script>
+  <script src="./scripts/most_sale.js"></script>
+
+  <!-- #endregion scripts-->
+</body>
+
 </html>

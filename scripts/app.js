@@ -6,3 +6,12 @@ const swiper = new Swiper(".story", {
     prevEl: ".prev"
   },
 });
+
+const homeBtn = document.querySelector("#back-home");
+
+homeBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
