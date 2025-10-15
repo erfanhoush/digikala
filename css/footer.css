@@ -93,7 +93,7 @@ footer{
     background-color: #3A4869;
     border-radius: 8px;
     display: flex;
-    align-items: center;
+    align-items: center; {}
     padding: 0 10px;
     img{
         width: 44px;
@@ -117,3 +117,13 @@ footer{
     }
 }
 .last_svg{width: 43px !important;}
+
+
+.invalid-email__box, .empty-email__box {
+    display: none;
+}
+
+.invalid-alert, .empty-alert {
+    display: block !important;
+    color: red !important;
+}
