@@ -13,7 +13,6 @@ main {
   }
 }
 .super_fix {
-  display: none;
   width: 128px;
   height: 53px;
   position: fixed;
@@ -38,7 +37,6 @@ main {
   }
 }
 .support_fix {
-  display: none;
   width: max-content;
   height: max-content;
   position: fixed;

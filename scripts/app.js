@@ -3,7 +3,7 @@ const swiper = new Swiper(".story", {
   spaceBetween: 39,
   navigation: {
     nextEl: ".next",
-    prevEl: ".prev"
+    prevEl: ".prev",
   },
 });
 
@@ -12,43 +12,48 @@ const homeBtn = document.querySelector("#back-home");
 homeBtn.addEventListener("click", () => {
   window.scrollTo({
     top: 0,
-    behavior: "smooth"
+    behavior: "smooth",
   });
 });
 
-
 const emailInput = document.querySelector(".email-box");
-const emailInputInvalidText = document.querySelector(".invalid-email__box");
-const emailInputEmpty = document.querySelector(".empty-email__box");
+const errorMessage = document.querySelector(".error-message");
 const submitBtn = document.querySelector(".submit");
 
-
-const gmailRegex = /^(?!.*\.\.)[a-zA-Z0-9](?:[a-zA-Z0-9._+%-]{0,62}[a-zA-Z0-9+%-])?@gmail\.com$/i;
-
-let emailInputValue = "";
+const emailRegex = /^(?!.*\.\.)[a-zA-Z0-9](?:[a-zA-Z0-9._+%-]{0,62}[a-zA-Z0-9+%-])?@gmail\.com$/i;
 
 const isValidGmail = (email) => {
-  return gmailRegex.test(email);
-}
-
-
-emailInput.addEventListener("blur", () => {
-  if (emailInput.length === 0) {
-    console.log(emailInput.length);
-    
-    emailInputEmpty.classList.add("empty-alert");
-  }
-  emailInputEmpty.classList.add("empty-alert");
-  emailInputEmpty.style.display = "block"
-});
-
-submitBtn.addEventListener("click", () => {
-  if (!isValidGmail(emailInput.value) && emailInput.length > 0) {
-    emailInputInvalidText.classList.add("invalid-alert");
-    emailInputInvalidText.style.display = "block"
-  }
-});
+  return emailRegex.test(email);
+};
 
 emailInput.addEventListener("keyup", () => {
-  emailInputEmpty.style.display = "block"
-})
+  if (isValidGmail(emailInput.value)) {
+    submitBtn.disabled = false;
+    submitBtn.classList.add("active");
+    errorMessage.textContent = "";
+  } else if (!emailInput.value) {
+    errorMessage.textContent = "اینجا را خالی نگذارید";
+  } else {
+    submitBtn.disabled = true;
+    submitBtn.classList.remove("active");
+    errorMessage.textContent = "پست الکترونیک وارد شده درست نیست";
+  }
+});
+
+const infoBox = document.querySelector(".info-text");
+const toggleBtn = document.querySelector(".toggle-btn");
+
+let expanded = false;
+const initialHeight = "95px";
+const expandedHeight = "100%";
+
+toggleBtn.addEventListener("click", () => {
+  expanded = !expanded;
+  if (expanded) {
+    infoBox.style.height = expandedHeight;
+    toggleBtn.innerHTML = 'بستن <img src="./svgs/peikan.svg" alt="peikan" />';
+  } else {
+    infoBox.style.height = initialHeight;
+    toggleBtn.innerHTML = 'مشاهده بیشتر <img src="./svgs/peikan.svg" alt="peikan" />';
+  }
+});
